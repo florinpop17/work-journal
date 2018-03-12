@@ -8,6 +8,7 @@
 1. ML
 2. ML in JavaScript
 3. How to build & sell Web UI components (HTML/CSS with or w/o React.js)
+4. CSS Grid
 
 ## Resources for ML
 | Type            | Name                               | Link                                                                       |
