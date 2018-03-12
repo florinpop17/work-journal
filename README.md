@@ -1,8 +1,9 @@
 # Personal work journal
 
 ## To-do
-1. Create daily [Codepen](https://codepen.io/florinpop17) projects
-2. Write blog posts (rewrite existing blog website using Wordpress???)
+1. Find and write a list of small projects to build
+2. Create daily [Codepen](https://codepen.io/florinpop17) projects
+3. Write blog posts (rewrite existing blog website using Wordpress???)
 
 ## Learning plans:
 1. ML
