@@ -21,5 +21,6 @@
 ## Projects
 These projects could also be found in the Projects folder.
 
-| Day | Name      | Link                                      |
+| Day | Name      | Link                                                 |
+| --- | --------- | ---------------------------------------------------- |
 | 002 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa) |
