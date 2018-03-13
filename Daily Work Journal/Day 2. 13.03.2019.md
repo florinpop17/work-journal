@@ -1,5 +1,3 @@
 ## Done
 1. Watched a part of the [Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) Youtube playlist by 3Blue1Brown
-
-## To-Do
-1. Create [this PI art](https://img.washingtonpost.com/wp-apps/imrs.php?src=https://img.washingtonpost.com/blogs/wonkblog/files/2015/03/links-pi-cristian.png&w=1484)
+2. Created [Art of PI](https://codepen.io/FlorinPop17/pen/xWZRxa) sketch with p5.js. Inspired from [here](https://www.washingtonpost.com/news/wonk/wp/2015/03/14/10-stunning-images-show-the-beauty-hidden-in-pi/?utm_term=.045d7db26541). Helped by [Alca](https://codepen.io/Alca/) regarding some p5 functionality.
