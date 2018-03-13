@@ -12,7 +12,8 @@
 4. CSS Grid
 
 ## Resources for ML
-| Type            | Name                               | Link                                                                       |
-| --------------- | ---------------------------------- | -------------------------------------------------------------------------- |
-| Video / Course  | Machine Learning A-Z               | [Udemy](https://www.udemy.com/machinelearning/learn/v4/t/lecture/5772258)  |
-| Github repo     | Learn Machine Learning in 3 Months | [Github](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months) |
+| Type            | Name                               | Link                                                                                           |
+| --------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Video / Course  | Machine Learning A-Z               | [Udemy](https://www.udemy.com/machinelearning/learn/v4/t/lecture/5772258)                      |
+| Github repo     | Learn Machine Learning in 3 Months | [Github](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)                     |
+| Videos Playlist | Neural Networks - The Coding Train | [Youtube](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) |
