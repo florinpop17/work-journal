@@ -30,6 +30,6 @@ A list with completed/in progress tasks.
 
 | Day | Link                                                           |
 | --- | -------------------------------------------------------------- |
-| 001 | [Github](/tree/master/Daily Work Journal/Day 1. 12.03.2018.md) |
-| 002 | [Github](/tree/master/Daily Work Journal/Day 2. 13.03.2018.md) |
-| 003 | [Github](/tree/master/Daily Work Journal/Day 3. 14.03.2018.md) |
+| 001 | [Github](./Daily Work Journal/Day 1. 12.03.2018.md) |
+| 002 | [Github](./Daily Work Journal/Day 2. 13.03.2018.md) |
+| 003 | [Github](./Daily Work Journal/Day 3. 14.03.2018.md) |
