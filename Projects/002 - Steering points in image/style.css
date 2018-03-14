@@ -1,24 +1,27 @@
 body {
-	background-color: #000;
-	display: flex;
-	justify-content: center;
 	align-items: center;
-	margin: 0;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Palatino', sans-serif;
 	height: 100vh;
+	justify-content: center;
+	margin: 0;
 }
 
-canvas {
-	border: 1px solid #fff;
+h2 {
+	margin-top: -100px;
+	margin-bottom: 0;
 }
 
 footer {
-	position: fixed;
 	bottom: 0;
-	color: white;
+	position: fixed;
 	left: 0;
 	right: 0;
-	text-align: center;
 	letter-spacing: 1px;
+	text-align: center;
 }
 
 footer i {

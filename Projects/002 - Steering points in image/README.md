@@ -1,8 +1,15 @@
 ## Description
-Create a steering behaving on an image's grouped pixels. Idea from [here](https://www.youtube.com/watch?v=4hA7G3gup-4).
+Steering behaving on an image's grouped color pixels. Idea from [this](https://www.youtube.com/watch?v=4hA7G3gup-4) video.
 
-## To-do
-1. Refactor code to be more clean
-2. Add a little phisics
-3. Add forces
-4. Add steering behaviors on mouse move
+**Try moving your mouse around the image circles!** ^_^
+
+## Link
+You can see the version live on [Codepen](https://codepen.io/FlorinPop17/pen/VXayby).
+
+## Possible adjustments for the future
+1. Refactor sketch.js to work directly with the pixels array
+2. Add upload image functionality
+
+## Credits
+- Photo by **h heyerlein** on [Unsplash](https://unsplash.com/photos/riYdn15o96U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Daniel Shiffman - [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)

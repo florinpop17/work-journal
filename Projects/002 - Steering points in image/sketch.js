@@ -1,7 +1,5 @@
-const WIDTH = 600;
-const HEIGHT = 600;
-const AVERAGE_MATRIX_SIZE = WIDTH / 300;
-let points = [];
+const DARK_TRESHOLD = 10;
+let circles = [];
 let img;
 
 function preload() {
@@ -10,24 +8,24 @@ function preload() {
 
 function setup() {
     createCanvas(WIDTH, HEIGHT);
-    background(255);
-
     imageMode(CENTER);
     image(img, width / 2, height / 2);
 
     // Using underscore to flatten the array
     let matrix = getMatrixOfPixels();
-    let newArrayOfAveragedPixels = _.flatten(getAverageMatrixValues(matrix, AVERAGE_MATRIX_SIZE));
+    let newArrayOfAveragedPixels = _.flatten(getAverageMatrixValues(matrix, CIRCLE_SIZE));
+}
+
+function draw() {
     background(0);
     drawCircles();
 }
 
 function drawCircles() {
-    // noStroke();
-    points.forEach(p => {
-        stroke([...p.color]);
-        fill([...p.color]);
-        ellipse(p.x, p.y, AVERAGE_MATRIX_SIZE, AVERAGE_MATRIX_SIZE);
+    circles.forEach(c => {
+        c.applyBehaviors();
+        c.update();
+        c.draw();
     });
 }
 
@@ -87,11 +85,14 @@ function getAverageMatrixValues(matrix, step) {
             let averageValue = [averageValueR, averageValueG, averageValueB, averageValueA];
             
             // Adding these values into the points array
-            points.push({
-                x: j + step / 2,
-                y: i + step / 2,
-                color: averageValue
-            })
+            let x = j + step / 2;
+            let y = i + step / 2 - 80;
+            let color = averageValue;
+            
+            // Only add non-black circles
+            if (!circleIsDarker(color)){
+                circles.push(new Vehicle(x, y, color));
+            }
 
             for(let x = 0; x < step; x++) {
                 for(let y = 0; y < step; y++) {
@@ -101,4 +102,8 @@ function getAverageMatrixValues(matrix, step) {
         }
     }
     return newMatrix;
+}
+
+function circleIsDarker(color) {
+    return color[0] < DARK_TRESHOLD && color[1] < DARK_TRESHOLD && color[2] < DARK_TRESHOLD;
 }
