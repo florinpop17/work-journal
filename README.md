@@ -24,3 +24,12 @@ These projects could also be found in the Projects folder.
 | #   | Name      | Link                                                 |
 | --- | --------- | ---------------------------------------------------- |
 | 001 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa) |
+
+## Daily Work Journal
+A list with completed/in progress tasks.
+
+| Day | Link                                                           |
+| --- | -------------------------------------------------------------- |
+| 001 | [Github](/tree/master/Daily Work Journal/Day 1. 12.03.2018.md) |
+| 002 | [Github](/tree/master/Daily Work Journal/Day 2. 13.03.2018.md) |
+| 003 | [Github](/tree/master/Daily Work Journal/Day 3. 14.03.2018.md) |
