@@ -8,8 +8,9 @@
 ## Learning plans:
 1. ML
 2. ML in JavaScript
-3. How to build & sell Web UI components (HTML/CSS with or w/o React.js)
+3. How to build (& sell?) Web UI components (HTML/CSS with or w/o React.js)
 4. CSS Grid
+5. SVG & SVG Animation
 
 ## Resources for ML
 | Type            | Name                               | Link                                                                                           |
