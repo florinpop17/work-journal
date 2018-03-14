@@ -3,7 +3,7 @@
 ## To-do
 1. Find and write a list of small projects to build
 2. Create daily [Codepen](https://codepen.io/florinpop17) projects
-3. Write blog posts (rewrite existing blog website using Wordpress???)
+3. Write blog posts (& rewrite existing blog website using Wordpress???)
 
 ## Learning plans:
 1. ML
@@ -22,12 +22,12 @@
 ## Projects
 These projects could also be found in the Projects folder.
 
-| #   | Name      | Link                                                 |
-| --- | --------- | ---------------------------------------------------- |
-| 001 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa) |
+| #   | Name      | Link                                                                                                |
+| --- | --------- | --------------------------------------------------------------------------------------------------- |
+| 001 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI) |
 
 ## Daily Work Journal
-A list with completed/in progress tasks.
+A list with completed/in progress tasks for the corresponding day.
 
 | Day | Link                                                                   |
 | --- | ---------------------------------------------------------------------- |
