@@ -1,0 +1,31 @@
+body {
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	height: 100vh;
+}
+
+canvas {
+	border: 1px solid #fff;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	color: white;
+	left: 0;
+	right: 0;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
