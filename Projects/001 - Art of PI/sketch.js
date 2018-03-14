@@ -7,7 +7,7 @@ const ANGLE = Math.PI * 2 / NUMBER_OF_POINTS;
 let points = [];
 
 function setup() {
-	createCanvas(700, 700);
+	createCanvas(min(windowWidth, windowHeight, 700), min(windowWidth, windowHeight, 700));
 
 	for(let i = 0; i < PI_DIGITS.length; i++) {
 		let category = +PI_DIGITS[i];
