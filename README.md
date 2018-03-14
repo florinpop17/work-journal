@@ -28,8 +28,8 @@ These projects could also be found in the Projects folder.
 ## Daily Work Journal
 A list with completed/in progress tasks.
 
-| Day | Link                                                           |
-| --- | -------------------------------------------------------------- |
-| 001 | [Github](./Daily Work Journal/Day 1. 12.03.2018.md) |
-| 002 | [Github](./Daily Work Journal/Day 2. 13.03.2018.md) |
-| 003 | [Github](./Daily Work Journal/Day 3. 14.03.2018.md) |
+| Day | Link                                                                   |
+| --- | ---------------------------------------------------------------------- |
+| 001 | [Day 1. 12.03.2018](./Daily%20Work%20Journal/Day%201.%2012.03.2018.md) |
+| 002 | [Day 2. 13.03.2018](./Daily%20Work%20Journal/Day%202.%2013.03.2018.md) |
+| 003 | [Day 3. 14.03.2018](./Daily%20Work%20Journal/Day%203.%2014.03.2018.md) |
