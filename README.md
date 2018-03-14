@@ -11,6 +11,7 @@
 3. How to build (& sell?) Web UI components (HTML/CSS with or w/o React.js)
 4. CSS Grid
 5. SVG & SVG Animation
+6. Physics in JS
 
 ## Resources for ML
 | Type            | Name                               | Link                                                                                           |
@@ -18,6 +19,12 @@
 | Video / Course  | Machine Learning A-Z               | [Udemy](https://www.udemy.com/machinelearning/learn/v4/t/lecture/5772258)                      |
 | Github repo     | Learn Machine Learning in 3 Months | [Github](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)                     |
 | Videos Playlist | Neural Networks - The Coding Train | [Youtube](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) |
+
+## Resources for Physics in JS
+| Type    | Name                                                  | Link                                                                                        |
+| ------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Article | Build a simple 2D physics engine for JavaScript games | [Link](https://www.ibm.com/developerworks/library/wa-build2dphysicsengine/) |
+| Youtube | Daniel Shiffman's Nature of Code - Physics            | [Youtube Playlist](https://www.youtube.com/user/shiffman/playlists)                        |
 
 ## Projects
 These projects could also be found in the Projects folder.
