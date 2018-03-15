@@ -1,4 +1,17 @@
 # Personal work journal
+| #   | Date       | Link                                                      |
+| --- | ---------- | --------------------------------------------------------- |
+| 001 | 12.03.2018 | [link](./Daily%20Work%20Journal/Day%201.%2012.03.2018.md) |
+| 002 | 12.03.2018 | [link](./Daily%20Work%20Journal/Day%202.%2013.03.2018.md) |
+| 003 | 12.03.2018 | [link](./Daily%20Work%20Journal/Day%203.%2014.03.2018.md) |
+
+## Projects
+These projects could also be found in the Projects folder.
+
+| #   | Name                     | Link                                                                                                                 |
+| --- | ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| 001 | Art of PI                | [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI)                  |
+| 002 | Steering points in image | [Codepen](https://codepen.io/FlorinPop17/pen/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image) |
 
 ## To-do
 1. Find and write a list of small projects to build
@@ -21,17 +34,10 @@
 | Videos Playlist | Neural Networks - The Coding Train | [Youtube](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) |
 
 ## Resources for Physics in JS
-| Type    | Name                                                  | Link                                                                                        |
-| ------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Type    | Name                                                  | Link                                                                        |
+| ------- | ----------------------------------------------------- | --------------------------------------------------------------------------- |
 | Article | Build a simple 2D physics engine for JavaScript games | [Link](https://www.ibm.com/developerworks/library/wa-build2dphysicsengine/) |
-| Youtube | Daniel Shiffman's Nature of Code - Physics            | [Youtube Playlist](https://www.youtube.com/user/shiffman/playlists)                        |
-
-## Projects
-These projects could also be found in the Projects folder.
-
-| #   | Name      | Link                                                                                                |
-| --- | --------- | --------------------------------------------------------------------------------------------------- |
-| 001 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI) |
+| Youtube | Daniel Shiffman's Nature of Code - Physics            | [Youtube Playlist](https://www.youtube.com/user/shiffman/playlists)         |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
