@@ -1,0 +1,21 @@
+{
+  "name": "work-journal",
+  "version": "1.0.0",
+  "description": "A personal journal with holds some of my projects, plans and resources for future reference.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florinpop17/work-journal.git"
+  },
+  "keywords": [],
+  "author": "Florin Pop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/florinpop17/work-journal/issues"
+  },
+  "homepage": "https://github.com/florinpop17/work-journal#readme",
+  "dependencies": {}
+}
