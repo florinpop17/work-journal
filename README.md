@@ -9,6 +9,15 @@ A personal journal with holds some of my projects, plans and resources for futur
 
 These projects could also be found in the Projects folder.
 
+## Daily Work Journal
+A list with completed/in progress tasks for the corresponding day.
+
+| Day | Link                                                                   |
+| --- | ---------------------------------------------------------------------- |
+| 001 | [Day 1. 12.03.2018](./Daily%20Work%20Journal/Day%201.%2012.03.2018.md) |
+| 002 | [Day 2. 13.03.2018](./Daily%20Work%20Journal/Day%202.%2013.03.2018.md) |
+| 003 | [Day 3. 14.03.2018](./Daily%20Work%20Journal/Day%203.%2014.03.2018.md) |
+
 ## To-do
 1. Find and write a list of small projects to build
 2. Create daily [Codepen](https://codepen.io/florinpop17) projects
@@ -34,12 +43,3 @@ These projects could also be found in the Projects folder.
 | ------- | ----------------------------------------------------- | --------------------------------------------------------------------------- |
 | Article | Build a simple 2D physics engine for JavaScript games | [Link](https://www.ibm.com/developerworks/library/wa-build2dphysicsengine/) |
 | Youtube | Daniel Shiffman's Nature of Code - Physics            | [Youtube Playlist](https://www.youtube.com/user/shiffman/playlists)         |
-
-## Daily Work Journal
-A list with completed/in progress tasks for the corresponding day.
-
-| Day | Link                                                                   |
-| --- | ---------------------------------------------------------------------- |
-| 001 | [Day 1. 12.03.2018](./Daily%20Work%20Journal/Day%201.%2012.03.2018.md) |
-| 002 | [Day 2. 13.03.2018](./Daily%20Work%20Journal/Day%202.%2013.03.2018.md) |
-| 003 | [Day 3. 14.03.2018](./Daily%20Work%20Journal/Day%203.%2014.03.2018.md) |
