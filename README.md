@@ -1,17 +1,13 @@
 # Personal work journal
-| #   | Date       | Link                                                      |
-| --- | ---------- | --------------------------------------------------------- |
-| 001 | 12.03.2018 | [link](./Daily%20Work%20Journal/Day%201.%2012.03.2018.md) |
-| 002 | 12.03.2018 | [link](./Daily%20Work%20Journal/Day%202.%2013.03.2018.md) |
-| 003 | 12.03.2018 | [link](./Daily%20Work%20Journal/Day%203.%2014.03.2018.md) |
+A personal journal with holds some of my projects, plans and resources for future reference.
 
 ## Projects
-These projects could also be found in the Projects folder.
-
 | #   | Name                     | Link                                                                                                                 |
 | --- | ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
 | 001 | Art of PI                | [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI)                  |
 | 002 | Steering points in image | [Codepen](https://codepen.io/FlorinPop17/pen/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image) |
+
+These projects could also be found in the Projects folder.
 
 ## To-do
 1. Find and write a list of small projects to build
