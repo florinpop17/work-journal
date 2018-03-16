@@ -7,8 +7,7 @@ A personal journal with holds some of my projects, plans and resources for futur
 | 001 | Art of PI                | [Codepen](https://codepen.io/FlorinPop17/full/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI)                  |
 | 002 | Steering points in image | [Codepen](https://codepen.io/FlorinPop17/full/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image) |
 | 003 | Path following           | [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb) - [Github](./Projects/003%20-%20Path%20following)               |
-
-These projects could also be found in the Projects folder.
+| 004 | Circle Packing           | [Codepen](https://codepen.io/FlorinPop17/full/WzGQxp) - [Github](./Projects/004%20-%20Circle%20Packing)               |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
