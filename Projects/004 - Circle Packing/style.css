@@ -1,0 +1,34 @@
+body {
+	align-items: center;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Arial', sans-serif;
+	height: 100vh;
+	justify-content: center;
+	margin: 0;
+}
+
+h2 {
+	margin-top: -30px;
+	margin-bottom: 0;
+}
+
+footer {
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
