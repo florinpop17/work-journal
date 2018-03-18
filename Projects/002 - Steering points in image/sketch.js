@@ -13,7 +13,7 @@ function setup() {
 
     // Using underscore to flatten the array
     let matrix = getMatrixOfPixels();
-    let newArrayOfAveragedPixels = _.flatten(getAverageMatrixValues(matrix, CIRCLE_SIZE));
+    getAverageMatrixValues(matrix, CIRCLE_SIZE);
 }
 
 function draw() {
