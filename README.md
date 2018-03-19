@@ -41,6 +41,7 @@ A list with completed/in progress tasks for the corresponding day.
 | Video / Course  | Machine Learning A-Z               | [Udemy](https://www.udemy.com/machinelearning/learn/v4/t/lecture/5772258)                      |
 | Github repo     | Learn Machine Learning in 3 Months | [Github](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)                     |
 | Videos Playlist | Neural Networks - The Coding Train | [Youtube](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) |
+| Medium Article  | NN in JS with Brain.js             | [Medium](https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3) |
 
 ## Resources for Physics in JS
 | Type    | Name                                                  | Link                                                                        |
