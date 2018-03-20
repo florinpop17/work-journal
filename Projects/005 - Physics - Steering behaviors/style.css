@@ -11,8 +11,17 @@ body {
 }
 
 h2 {
-	margin-top: -50px;
+	margin-top: -100px;
 	margin-bottom: 0;
+}
+
+.container {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.container p {
+	margin: 5px 0;
 }
 
 footer {
