@@ -43,6 +43,7 @@ A list with completed/in progress tasks for the corresponding day.
 | Videos Playlist| Neural Networks - The Coding Train | [Youtube](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh)                               |
 | Medium Article | NN in JS with Brain.js | [Medium](https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3) |
 | Youtube Playlist | 3Blue1Brown NN playlist | [Youtube](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
+| Video / Course | Machine Learning - Andrew Ng | [Coursera](https://www.coursera.org/learn/machine-learning) |
 
 ## Resources for Physics in JS
 | Type | Name | Link |
