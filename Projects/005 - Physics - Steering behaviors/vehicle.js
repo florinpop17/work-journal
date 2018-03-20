@@ -1,19 +1,14 @@
-const DEFAULT_MAX_SPEED = 8;
+const DEFAULT_MAX_SPEED = 5;
 const DEFAULT_MAX_FORCE = 0.3;
 const VEHICLE_SIZE = 10;
-const DISTANCE_FROM_TARGET = 100;
+const DISTANCE_FROM_TARGET = 50;
 const SCREEN_OFFSET = 20;
-
-// Behavior types
-const SEEK = 'SEEK';
-const FLEE = 'FLEE';
-const ARRIVAL = 'ARRIVAL';
 
 class Vehicle{
     constructor(x, y, max_speed, max_force) {
         this.position = createVector(x, y);
-        this.velocity = createVector();
-        this.acceleration = createVector();
+        this.velocity = createVector(random(-1, 1), random(-1, 1));
+        this.acceleration = createVector(0, 0);
         this.size = VEHICLE_SIZE;
         this.max_speed = max_speed || DEFAULT_MAX_SPEED;
         this.max_force = max_force || DEFAULT_MAX_FORCE;
@@ -47,26 +42,19 @@ class Vehicle{
     checkEdges() {
         // Check edges of the canvas on the X Axis
         if(this.position.x < 0) {
-            this.position.x = width;
+            this.position.x = width - this.size;
         }
         if (this.position.x > width) {
-            this.position.x = 0;
+            this.position.x = this.size;
         }
 
         // Check edges of the canvas on the Y Axis
         if(this.position.y < 0) {
-            this.position.y = height;
+            this.position.y = height - this.size;
         }
         if (this.position.y > height) {
-            this.position.y = 0;
+            this.position.y = this.size;
         }
-    }
-
-    run() {
-        this.applyBehaviors(ARRIVAL);
-        this.update();
-        this.checkEdges();
-        this.draw();
     }
 
     applyForce(force) {
@@ -89,40 +77,52 @@ class Vehicle{
         let steering = p5.Vector.sub(desired, this.velocity);
         steering.limit(this.max_force);
 
-        return steering;
+        this.applyForce(steering);
     }
     
     // Inverse of seek
     flee(target) {
-        return this.seek(target).mult(-1);
-    }
+        let desired = p5.Vector.sub(target, this.position);
+        let distance = desired.mag();
 
-    arrival(target) {
-        return this.seek(target, true);
-    }
+        desired.setMag(this.max_speed);
 
-    applyBehaviors(behavior, providedTarget) {
-
-        // Target can be provider, or it will be default the mouse;
-        const target = providedTarget || createVector(mouseX, mouseY);
-        let force = null;
+        let steering = p5.Vector.sub(desired, this.velocity);
+        steering.limit(this.max_force);
         
+        // Multiply by -1 to get inverse of seek behavior
+        steering.mult(-1);
 
-        switch(behavior) {
-            case SEEK: {
-                force = this.seek(target);
-                break;
-            }
-            case FLEE: {
-                force = this.flee(target);
-                break;
-            }
-            case ARRIVAL: {
-                force = this.arrival(target);
-                break;
+        this.applyForce(steering);
+    }
+
+    // Stop when reaching the target
+    arrival(target) {
+        this.seek(target, true);
+    }
+
+    // Align the vehicle with the vehicles around it
+    align(vehicles) {
+        let sum = createVector(0, 0);
+        let count = 0;
+        for(let vehicle of vehicles) {
+            let d = p5.Vector.dist(this.position, vehicle.position);
+            
+            // Add up all the vehicles velocity
+            if(d > 0 && d < DISTANCE_FROM_TARGET) {
+                sum.add(vehicle.velocity);
+                count++;
             }
         }
 
-        this.applyForce(force);
+        if(count > 0) {
+            // Divide to get the average velocity
+            sum.div(count);
+            sum.setMag(this.max_speed);
+
+            const steer = p5.Vector.sub(sum, this.velocity);
+            steer.limit(this.max_force);
+            this.applyForce(steer);
+        }
     }
 }
