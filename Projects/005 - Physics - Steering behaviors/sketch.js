@@ -1,7 +1,7 @@
 const VEHICLES = [];
 
 function setup() {
-    createCanvas(640, 640);
+    createCanvas(window.innerWidth, window.innerHeight);
 
     for(let i = 0; i < 50; i++) {
         VEHICLES.push(new Vehicle(random(width), random(height)));
@@ -13,6 +13,7 @@ function draw() {
 
     for(let vehicle of VEHICLES) {
         vehicle.align(VEHICLES);
+        vehicle.separate(VEHICLES);
         vehicle.update();
         vehicle.checkEdges();
         vehicle.draw();

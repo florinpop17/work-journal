@@ -125,4 +125,33 @@ class Vehicle{
             this.applyForce(steer);
         }
     }
+
+    // Separate
+    separate(vehicles) {
+        let sum = createVector(0, 0);
+        let count = 0;
+        for(let vehicle of vehicles) {
+            let d = p5.Vector.dist(this.position, vehicle.position);
+            
+            // Add up all the vehicles velocity
+            if(d > 0 && d < DISTANCE_FROM_TARGET) {
+                let diff = p5.Vector.sub(this.position, vehicle.position);
+                diff.normalize();
+                diff.div(d);
+
+                sum.add(diff);
+                count++;
+            }
+        }
+
+        if(count > 0) {
+            // Divide to get the average velocity
+            sum.div(count);
+            sum.setMag(this.max_speed);
+
+            sum.sub(this.velocity);
+            sum.limit(this.max_force)
+            this.applyForce(sum);
+        }
+    }
 }
