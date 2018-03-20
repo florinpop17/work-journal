@@ -1,7 +1,8 @@
 const VEHICLES = [];
+const SCREEN_SIZE = Math.min(600, window.innerWidth);
 
 function setup() {
-    createCanvas(window.innerWidth, window.innerHeight);
+    createCanvas(SCREEN_SIZE, SCREEN_SIZE);
 
     for(let i = 0; i < 50; i++) {
         VEHICLES.push(new Vehicle(random(width), random(height)));
