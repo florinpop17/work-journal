@@ -17,6 +17,10 @@ footer {
 	letter-spacing: 1px;
 }
 
+footer p {
+	margin: 5px 0;
+}
+
 footer i {
 	color: red;
 }
