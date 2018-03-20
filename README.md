@@ -2,13 +2,13 @@
 A personal journal with holds some of my projects, plans and resources for future reference.
 
 ## Projects
-| #   | Name                         | Link                                                                                                                  |
-| --- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 001 | Art of PI                    | [Codepen](https://codepen.io/FlorinPop17/full/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI)                  |
-| 002 | Steering points in image     | [Codepen](https://codepen.io/FlorinPop17/full/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image) |
-| 003 | Path following               | [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb) - [Github](./Projects/003%20-%20Path%20following)               |
-| 004 | Circle Packing               | [Codepen](https://codepen.io/FlorinPop17/full/WzGQxp) - [Github](./Projects/004%20-%20Circle%20Packing)               |
-| 005 | Physics - Steering behaviors | [Github](./Projects/005%20-%20Physics%20-%20Steering%20behaviors)               |
+| #   | Name | Link |
+| --- | ---- | ---- |
+| 001 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/full/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI) |
+| 002 | Steering points in image | [Codepen](https://codepen.io/FlorinPop17/full/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image) |
+| 003 | Path following | [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb) - [Github](./Projects/003%20-%20Path%20following) |
+| 004 | Circle Packing | [Codepen](https://codepen.io/FlorinPop17/full/WzGQxp) - [Github](./Projects/004%20-%20Circle%20Packing) |
+| 005 | Physics - Steering behaviors | [Github](./Projects/005%20-%20Physics%20-%20Steering%20behaviors)|
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
@@ -36,16 +36,16 @@ A list with completed/in progress tasks for the corresponding day.
 6. Physics in JS
 
 ## Resources for ML
-| Type             | Name                               | Link                                                                                                                                      |
-| ---------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Video / Course   | Machine Learning A-Z               | [Udemy](https://www.udemy.com/machinelearning/learn/v4/t/lecture/5772258)                                                                |
-| Github repo      | Learn Machine Learning in 3 Months | [Github](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months)                                                                |
-| Videos Playlist  | Neural Networks - The Coding Train | [Youtube](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh)                               |
-| Medium Article   | NN in JS with Brain.js             | [Medium](https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3) |
-| Youtube Playlist | 3Blue1Brown NN playlist            | [Youtube](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)     |
+| Type | Name | Link |
+| ---- | ---- | ---- |
+| Video / Course | Machine Learning A-Z | [Udemy](https://www.udemy.com/machinelearning/learn/v4/t/lecture/5772258)|
+| Github repo    | Learn Machine Learning in 3 Months | [Github](https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months) |
+| Videos Playlist| Neural Networks - The Coding Train | [Youtube](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh)                               |
+| Medium Article | NN in JS with Brain.js | [Medium](https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3) |
+| Youtube Playlist | 3Blue1Brown NN playlist | [Youtube](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)|
 
 ## Resources for Physics in JS
-| Type    | Name                                                  | Link                                                                        |
-| ------- | ----------------------------------------------------- | --------------------------------------------------------------------------- |
+| Type | Name | Link |
+| ---- | ---- | ---- |
 | Article | Build a simple 2D physics engine for JavaScript games | [Link](https://www.ibm.com/developerworks/library/wa-build2dphysicsengine/) |
-| Youtube | Daniel Shiffman's Nature of Code - Physics            | [Youtube Playlist](https://www.youtube.com/user/shiffman/playlists)         |
+| Youtube | Daniel Shiffman's Nature of Code - Physics | [Youtube Playlist](https://www.youtube.com/user/shiffman/playlists) |
