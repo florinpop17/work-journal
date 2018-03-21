@@ -36,6 +36,7 @@ A list with completed/in progress tasks for the corresponding day.
 4. CSS Grid
 5. SVG & SVG Animation
 6. Physics in JS
+7. [Brain.js](https://github.com/BrainJS/brain.js)
 
 ## Resources for ML
 | Type | Name | Link |
