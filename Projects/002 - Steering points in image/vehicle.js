@@ -1,6 +1,6 @@
 const MAX_SPEED = 12;
 const MAX_FORCE = 1;
-const CIRCLE_RADIUS = 75;
+const CIRCLE_RADIUS = 50;
 
 class Vehicle{
     constructor(x, y, color) {

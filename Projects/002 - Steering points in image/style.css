@@ -10,6 +10,10 @@ body {
 	margin: 0;
 }
 
+canvas {
+	border: 1px solid white;
+}
+
 h2 {
 	margin-top: -100px;
 	margin-bottom: 0;
