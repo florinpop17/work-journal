@@ -3,6 +3,7 @@ Creating a path following behavior as in [this](https://www.youtube.com/watch?v=
 
 ## Link
 You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb).
+![Path folloring](./example.gif)
 
 ## Credits
 - Daniel Shiffman - [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
