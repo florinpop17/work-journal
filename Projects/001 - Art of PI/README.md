@@ -4,7 +4,7 @@ Inspired by [this](https://www.washingtonpost.com/news/wonk/wp/2015/03/14/10-stu
 ## Link
 You can see the version live on [Codepen](https://codepen.io/FlorinPop17/pen/xWZRxa).
 
-![Art of PI image](./art%20of%20pi.jpg)
+![Art of PI image](./example.png)
 
 ## Possible adjustments for the future
 1. Add numbers around the circle to corresponding digits of pi
