@@ -1,3 +1,5 @@
+![Circle Packing](./example.gif)
+
 ## Description
 Circle packing behavior as in [this](https://www.youtube.com/watch?v=QHEQuoIKgNE) video by Daniel Shiffman.
 
