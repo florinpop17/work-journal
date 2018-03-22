@@ -9,6 +9,7 @@ A personal journal with holds some of my projects, plans and resources for futur
 | 003 | Path following | [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb) - [Github](./Projects/003%20-%20Path%20following) |
 | 004 | Circle Packing | [Codepen](https://codepen.io/FlorinPop17/full/WzGQxp) - [Github](./Projects/004%20-%20Circle%20Packing) |
 | 005 | Physics - Steering behaviors | [Codepen](https://codepen.io/FlorinPop17/full/rdyyjK) - [Github](./Projects/005%20-%20Physics%20-%20Steering%20behaviors)|
+| 006 | Dotted World Map | [Codepen](https://codepen.io/FlorinPop17/full/QmgEBe) - [Github](./Projects/006%20-%20Dotted%20World%20Map) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
@@ -23,6 +24,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 006 | [Day 6. 18.03.2018](./Daily%20Work%20Journal/Day%206.%2018.03.2018.md) |
 | 007 | [Day 7. 19.03.2018](./Daily%20Work%20Journal/Day%207.%2019.03.2018.md) |
 | 008 | [Day 8. 20.03.2018](./Daily%20Work%20Journal/Day%208.%2020.03.2018.md) |
+| 009 | [Day 9. 22.03.2018](./Daily%20Work%20Journal/Day%209.%2022.03.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
