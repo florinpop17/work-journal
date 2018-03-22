@@ -12,15 +12,6 @@ body {
 	margin: 0;
 }
 
-.container {
-	text-align: center;
-	margin: 10px 0;
-}
-
-.container p {
-	margin: 5px 0;
-}
-
 footer {
 	bottom: 0;
 	position: fixed;
