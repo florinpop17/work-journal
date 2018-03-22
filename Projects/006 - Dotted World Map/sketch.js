@@ -17,6 +17,7 @@ function setup() {
 
     // Create canvas
     createCanvas(SCREEN_SIZE, SCREEN_SIZE * 3 / 4);
+    pixelDensity(1);
 
     // Get image and center it on the screen
     imageMode(CENTER);
