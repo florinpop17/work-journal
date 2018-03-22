@@ -1,3 +1,5 @@
+![Steering points in image](./example.gif)
+
 ## Description
 Steering behaving on an image's grouped color pixels. Idea from [this](https://www.youtube.com/watch?v=4hA7G3gup-4) video.
 
@@ -5,7 +7,6 @@ Steering behaving on an image's grouped color pixels. Idea from [this](https://w
 
 ## Link
 You can see the version live on [Codepen](https://codepen.io/FlorinPop17/pen/VXayby).
-![Steering points in image](./example.gif)
 
 ## Possible adjustments for the future
 1. Refactor sketch.js to work directly with the pixels array
