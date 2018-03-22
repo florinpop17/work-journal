@@ -1,3 +1,5 @@
+![Steering behaviors](./example.gif)
+
 ## Description
 Demonstrating different physics behaviors in p5js:
 - Seek
