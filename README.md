@@ -17,16 +17,16 @@ A list with completed/in progress tasks for the corresponding day.
 
 | Day | Link                                                                   |
 | --- | ---------------------------------------------------------------------- |
-| 001 | [Day 1. 12.03.2018](./Daily%20Work%20Journal/Day%201.%2012.03.2018.md) |
-| 002 | [Day 2. 13.03.2018](./Daily%20Work%20Journal/Day%202.%2013.03.2018.md) |
-| 003 | [Day 3. 14.03.2018](./Daily%20Work%20Journal/Day%203.%2014.03.2018.md) |
-| 004 | [Day 4. 15.03.2018](./Daily%20Work%20Journal/Day%204.%2015.03.2018.md) |
-| 005 | [Day 5. 16.03.2018](./Daily%20Work%20Journal/Day%205.%2016.03.2018.md) |
-| 006 | [Day 6. 18.03.2018](./Daily%20Work%20Journal/Day%206.%2018.03.2018.md) |
-| 007 | [Day 7. 19.03.2018](./Daily%20Work%20Journal/Day%207.%2019.03.2018.md) |
-| 008 | [Day 8. 20.03.2018](./Daily%20Work%20Journal/Day%208.%2020.03.2018.md) |
-| 009 | [Day 9. 22.03.2018](./Daily%20Work%20Journal/Day%209.%2022.03.2018.md) |
-| 010 | [Day 10. 23.03.2018](./Daily%20Work%20Journal/Day%210.%2023.03.2018.md) |
+| 001 | [Day 1. 12.03.2018](./Daily%20Work%20Journal/Day%2001.%2012.03.2018.md) |
+| 002 | [Day 2. 13.03.2018](./Daily%20Work%20Journal/Day%2002.%2013.03.2018.md) |
+| 003 | [Day 3. 14.03.2018](./Daily%20Work%20Journal/Day%2003.%2014.03.2018.md) |
+| 004 | [Day 4. 15.03.2018](./Daily%20Work%20Journal/Day%2004.%2015.03.2018.md) |
+| 005 | [Day 5. 16.03.2018](./Daily%20Work%20Journal/Day%2005.%2016.03.2018.md) |
+| 006 | [Day 6. 18.03.2018](./Daily%20Work%20Journal/Day%2006.%2018.03.2018.md) |
+| 007 | [Day 7. 19.03.2018](./Daily%20Work%20Journal/Day%2007.%2019.03.2018.md) |
+| 008 | [Day 8. 20.03.2018](./Daily%20Work%20Journal/Day%2008.%2020.03.2018.md) |
+| 009 | [Day 9. 22.03.2018](./Daily%20Work%20Journal/Day%2009.%2022.03.2018.md) |
+| 010 | [Day 10. 23.03.2018](./Daily%20Work%20Journal/Day%2010.%2023.03.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
