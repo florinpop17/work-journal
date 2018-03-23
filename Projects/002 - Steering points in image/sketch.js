@@ -8,6 +8,7 @@ function preload() {
 
 function setup() {
     createCanvas(WIDTH, HEIGHT);
+    pixelDensity(1);
     imageMode(CENTER);
     image(img, width / 2, height / 2);
 
