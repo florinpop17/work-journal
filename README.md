@@ -28,7 +28,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 008 | [Day 8. 20.03.2018](./Daily%20Work%20Journal/Day%20008.%2020.03.2018.md) |
 | 009 | [Day 9. 22.03.2018](./Daily%20Work%20Journal/Day%20009.%2022.03.2018.md) |
 | 010 | [Day 10. 23.03.2018](./Daily%20Work%20Journal/Day%20010.%2023.03.2018.md) |
-| 010 | [Day 11. 24.03.2018](./Daily%20Work%20Journal/Day%20011.%2024.03.2018.md) |
+| 011 | [Day 11. 24.03.2018](./Daily%20Work%20Journal/Day%20011.%2024.03.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
