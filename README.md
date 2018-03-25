@@ -1,5 +1,5 @@
 # Personal work journal
-A personal journal with holds some of my projects, plans and resources for future reference.
+A personal journal which holds a number of my projects, plans and resources for future reference.
 
 ## Projects
 | #   | Name | Link |
