@@ -29,6 +29,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 009 | [Day 9. 22.03.2018](./Daily%20Work%20Journal/Day%20009.%2022.03.2018.md) |
 | 010 | [Day 10. 23.03.2018](./Daily%20Work%20Journal/Day%20010.%2023.03.2018.md) |
 | 011 | [Day 11. 24.03.2018](./Daily%20Work%20Journal/Day%20011.%2024.03.2018.md) |
+| 012 | [Day 12. 25.03.2018](./Daily%20Work%20Journal/Day%20012.%2025.03.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
@@ -59,3 +60,9 @@ A list with completed/in progress tasks for the corresponding day.
 | ---- | ---- | ---- |
 | Article | Build a simple 2D physics engine for JavaScript games | [Link](https://www.ibm.com/developerworks/library/wa-build2dphysicsengine/) |
 | Youtube | Daniel Shiffman's Nature of Code - Physics | [Youtube Playlist](https://www.youtube.com/user/shiffman/playlists) |
+
+## Project Ideas Resources
+| Name | Link |
+| ---- | ---- |
+| 28 Fun React app ideas | [Medium](https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d) |
+| 10 React Starter Projects | [Medium](https://medium.com/@dtkatz/10-react-starter-project-ideas-to-get-you-coding-5b35782e1831) |
