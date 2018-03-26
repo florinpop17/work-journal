@@ -147,7 +147,8 @@ ul.decks li button {
 
 .flashcard h4 {
     opacity: 0.5;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 400;
     position: absolute;
     top: 10px;
     left: 10px;
