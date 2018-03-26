@@ -1,37 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class FlashCard extends Component {
-    state = {
-        answer: false
-    }
+const ToggleButton = ({ handleToggleCard }) => (
+    <button className="icon" onClick={handleToggleCard}>
+        <i className="fa fa-refresh"></i>
+    </button>
+);
 
-    showAnswer = () => {
-        this.setState({ answer: true });
-    }
-
-    hideAnswer = () => {
-        this.setState({ answer: false });
-    }
-
-    render () {
-        const { answer } = this.state;
-        const { front, back } = this.props;
-
-        return (
-            <div className="flashcard-container">
-                <div className={`flashcard ${answer && `show-answer`}`}>
-                    <div className="front">
-                        { front }
-                        <button onClick={this.showAnswer}>Show Answer</button>
-                    </div>
-                    <div className="back">
-                        { back }
-                        <button onClick={this.hideAnswer}>Hide Answer</button>
-                    </div>
-                </div>
+const FlashCard = ({ front, back, showAnswer, handleToggleCard }) => (
+    <div className="flashcard-container">
+        <div className={`flashcard ${showAnswer && `show-answer`}`}>
+            <div className="front">
+                <h4>Q</h4>
+                { front }
+                <ToggleButton handleToggleCard={handleToggleCard} />
             </div>
-        );
-    }
-}
+            <div className="back">
+                <h4>A</h4>
+                { back }
+                <ToggleButton handleToggleCard={handleToggleCard} />
+            </div>
+        </div>
+    </div>
+);
 
 export { FlashCard };

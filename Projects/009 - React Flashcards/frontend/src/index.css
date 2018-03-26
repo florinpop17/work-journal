@@ -4,41 +4,173 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #706fd3;
+    --secondary-color: #8A0784;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #999;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button.primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+button.secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+button.block {
+    display: block;
+    width: 100%;
+}
+
+button.icon {
+    padding: 0 5px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    margin-left: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid #222;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
 .container {
     align-items: center;
-    justify-content: center;
     display: flex;
+    justify-content: flex-start;
     height: 100vh;
-    background-color: red;
+}
+
+.sidebar {
+    background-color: #fff;
+    height: 100vh;
+    padding: 10px;
+    position: relative;
+    min-width: 250px;
+}
+
+.sidebar button.fixed-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+ul.decks li {
+    padding: 7px;
+}
+
+ul.decks li button {
+    float: right;
+}
+
+.main {
+    margin-left: 30px;
 }
 
 .flashcard-container {
-    perspective: 800px;
+    perspective: 1000px;
 }
 
 .flashcard {
+    background-color: transparent;
     position: relative;
-    width: 300px;
-    height: 300px;
 	transition: 0.6s;
-	transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 500px;
+    width: 800px;
 }
 
 .flashcard .front, .flashcard .back {
+    align-items: center;
     background-color: #fff;
     backface-visibility: hidden;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20px;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.flashcard .front {
+    z-index: 2;
+    transform: rotateX(0deg);
 }
 
 .flashcard .back {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .flashcard.show-answer {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
+}
+
+.flashcard button {
+    color: var(--primary-color);
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+.flashcard h4 {
+    opacity: 0.5;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+.action-buttons {
+    width: 800px;
+}
+
+.action-buttons button {
+    padding: 20px;
+    width: 33.3333%;
+}
+
+.action-buttons button:nth-child(1) {
+    background-color: #20bf6b;
+}
+
+.action-buttons button:nth-child(2) {
+    background-color: #f7b731;
+}
+
+.action-buttons button:nth-child(3) {
+    background-color: #eb3b5a;
 }
