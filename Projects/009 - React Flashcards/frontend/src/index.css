@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: red;
+}
+
+.flashcard-container {
+    perspective: 800px;
+}
+
+.flashcard {
+    position: relative;
+    width: 300px;
+    height: 300px;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+}
+
+.flashcard .front, .flashcard .back {
+    background-color: #fff;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.flashcard .back {
+    transform: rotateY(180deg);
+}
+
+.flashcard.show-answer {
+    transform: rotateY(180deg);
+}
