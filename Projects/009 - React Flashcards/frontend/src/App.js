@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FlashCard } from './components';
+import { Deck } from './components';
 import { Sidebar } from './components';
 import { Modal } from './components';
 
@@ -9,10 +9,10 @@ const getRandomId = () => Math.random().toString();
 
 class App extends Component {
     state = {
+        activeDeck: undefined,
         decks: dummyDecks,
         editDeckName: '',
         newDeckName: '',
-        showAnswer: false,
         showAddDeckModal: false,
         showEditDeckModal: false,
         selectedToEditDeckId: undefined
@@ -43,10 +43,6 @@ class App extends Component {
         } else {
             alert('Please enter a name for the new Deck!');
         }
-    }
-
-    handleToggleCard = () => {
-        this.setState({ showAnswer: !this.state.showAnswer });
     }
 
     handleAddCardToDeck = (e) => {
@@ -99,6 +95,14 @@ class App extends Component {
         });
     }
 
+    handleSelectDeck = (deckId) => {
+        const { decks } = this.state;
+        
+        this.setState({
+            activeDeck: decks.find(deck => deck.id === deckId)
+        });
+    }
+
     updateCardWithId = (e, cardId, type) => {
         const { decks, selectedToEditDeckId } = this.state;
         const inputValue = e.target.value;
@@ -135,16 +139,15 @@ class App extends Component {
     }
 
     render() {
-        const { 
+        const {
+            activeDeck,
             decks,
             editDeckName,
             newDeckName,
-            showAnswer,
             showAddDeckModal,
             showEditDeckModal,
             selectedToEditDeckId
         } = this.state;
-        const { question, answer } = decks[0].cards[0];
 
         const selectedToEditDeck = decks.find(deck => deck.id === selectedToEditDeckId);
 
@@ -180,12 +183,12 @@ class App extends Component {
                         { selectedToEditDeck && selectedToEditDeck.cards.map((card, index) => (
                             <div key={card.id}>
                                 <div className="form-control">
-                                    <label>{ `Q${index}:` }</label>
+                                    <label>{ `Q${index + 1}:` }</label>
                                     <textarea
                                         value={card.question}
                                         onChange={(e) => this.updateCardWithId(e, card.id, 'question')}
                                     />
-                                    <label>{ `A${index}:` }</label>
+                                    <label>{ `A${index + 1}:` }</label>
                                     <textarea
                                         value={card.answer}
                                         onChange={(e) => this.updateCardWithId(e, card.id, 'answer')}
@@ -200,28 +203,12 @@ class App extends Component {
                     decks={decks}
                     handleShowAddDeckModal={this.handleShowAddDeckModal}
                     handleShowEditDeckModal={this.handleShowEditDeckModal}
+                    handleSelectDeck={this.handleSelectDeck}
                 />
-                
-                <div className="main">
-                    <FlashCard
-                        front={question}
-                        back={answer}
-                        showAnswer={showAnswer}
-                        handleToggleCard={this.handleToggleCard}
-                    />
 
-                    <div className="action-buttons">
-                        <button>
-                            <i className="fa fa-smile-o"></i> I knew it
-                        </button>
-                        <button>
-                            <i className="fa fa-meh-o"></i> Meh
-                        </button>
-                        <button>
-                            <i className="fa fa-frown-o"></i> Not this time
-                        </button>
-                    </div>
-                </div>
+                <Deck
+                    deck={activeDeck}
+                />
             </div>
         );
     }
