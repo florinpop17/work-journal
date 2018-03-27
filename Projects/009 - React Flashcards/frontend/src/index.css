@@ -63,6 +63,14 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .container {
     align-items: center;
     display: flex;
@@ -174,4 +182,83 @@ ul.decks li button {
 
 .action-buttons button:nth-child(3) {
     background-color: #eb3b5a;
+}
+
+.modal-container {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.modal-container.show-modal {
+    display: flex;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    max-width: 100%;
+    width: 500px;
+}
+
+.modal h2 {
+    padding: 10px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.modal .close {
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+    right: 5px;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.form-control {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button[type="submit"] {
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+form .form-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form label {
+    font-size: 16px;
+}
+
+form input, form textarea {
+    border: 0;
+    border-bottom: 1px solid #222;
+    padding: 5px 15px;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
 }
