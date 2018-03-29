@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FlashCard } from './FlashCard';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 // Three type of answers for the card questions
 const KNOW = 2;
@@ -74,13 +75,19 @@ class Deck extends Component {
 
         return ( 
             <div className="main">
-                <FlashCard
-                    front={card.question}
-                    back={card.answer}
-                    showAnswer={showAnswer}
-                    handleToggleCard={this.handleToggleCard}
-                    key={card.id}
-                />
+                <CSSTransitionGroup
+                    transitionName="flashcard-animation"
+                    transitionEnterTimeout={500}
+                    transitionLeaveTimeout={500}
+                >
+                    <FlashCard
+                        front={card.question}
+                        back={card.answer}
+                        showAnswer={showAnswer}
+                        handleToggleCard={this.handleToggleCard}
+                        key={card.id}
+                    />
+                </CSSTransitionGroup>
         
                 <div className="action-buttons">
                     <button onClick={() => this.selectAnswer(ANSWER_TYPES[0])}>

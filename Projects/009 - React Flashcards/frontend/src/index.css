@@ -105,11 +105,25 @@ ul.decks li button {
 }
 
 .main {
+    position: relative;
     margin-left: 30px;
 }
 
 .flashcard-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     perspective: 1000px;
+    animation: flashIn 500ms ease-in;
+}
+
+@keyframes flashIn {
+    0% {
+        transform: translateX(-100%) scale(0);
+    }
+    100% {
+        transform: translateX(0%) scale(1);
+    }
 }
 
 .flashcard {
@@ -167,7 +181,26 @@ ul.decks li button {
     z-index: 3;
 }
 
+.flashcard-animation-enter {
+    transform: translateX(-100%) scale(0);
+}
+
+.flashcard-animation-enter.flashcard-animation-enter-active {
+    transform: translateX(0%) scale(1);
+    transition: all 500ms ease-in;
+}
+
+.flashcard-animation-leave {
+    transform: translateX(0%) scale(1);
+}
+
+.flashcard-animation-leave.flashcard-animation-leave-active {
+    transform: translateX(100%) scale(0);
+    transition: all 500ms ease-out;
+}
+
 .action-buttons {
+    margin-top: 500px;
     width: 800px;
 }
 
