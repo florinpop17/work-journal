@@ -206,9 +206,11 @@ class App extends Component {
                     handleSelectDeck={this.handleSelectDeck}
                 />
 
-                <Deck
-                    deck={activeDeck}
-                />
+                { activeDeck && (
+                    <Deck
+                        deck={activeDeck}
+                    />
+                )}
             </div>
         );
     }

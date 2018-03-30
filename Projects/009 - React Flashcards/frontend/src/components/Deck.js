@@ -24,16 +24,28 @@ class Deck extends Component {
         }
     }
 
+    componentDidMount = () => {
+        const { deck } = this.props;
+
+        // Fill in the array with 0's for each card
+        const answers = Array(deck.cards.length).fill(0);
+
+        this.setState({
+            answers
+        });
+    }
+
     handleToggleCard = () => {
         this.setState({ showAnswer: !this.state.showAnswer });
     }
 
     selectAnswer = (answer) => {
+        const { deck } = this.props;
         const { activeCardIndex, answers } = this.state;
         const cardsLength = this.props.deck.cards.length;
-        const newActiveCardIndex = activeCardIndex + 1;
+        let newActiveCardIndex = activeCardIndex + 1;
 
-        answers.push(answer);
+        answers[activeCardIndex] = answer;
 
         if (newActiveCardIndex >= cardsLength) {
             this.setState({
@@ -41,7 +53,6 @@ class Deck extends Component {
                 gameOver: true,
             });
         } else {
-
             this.setState({
                 activeCardIndex: newActiveCardIndex,
                 answers,
@@ -51,9 +62,11 @@ class Deck extends Component {
     }
 
     resetState() {
+        const { deck } = this.props;
+
         this.setState({
             activeCardIndex: 0,
-            answers: [],
+            answers: Array.fill(deck.cards.length).fill(0),
             showAnswer: false,
             gameOver: false
         })
