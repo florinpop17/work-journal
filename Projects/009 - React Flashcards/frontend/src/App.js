@@ -84,6 +84,38 @@ class App extends Component {
         this.setState({ showEditDeckModal: false });
     }
 
+    handleDeleteCard = (cardId) => {
+        const { decks, selectedToEditDeckId } = this.state;
+        this.setState({
+            decks: decks.map(deck => {
+                if(deck.id === selectedToEditDeckId) {
+                    const newCardsList = deck.cards.filter(card => card.id !== cardId);
+                    return {
+                        ...deck,
+                        cards: newCardsList
+                    }
+                } else {
+                    return deck;
+                }
+            })
+        });
+    }
+
+    handleDeleteDeck = (deckId) => {
+        const { decks, activeDeck } = this.state;
+        const deckToBeDeleted = decks.find(deck => deck.id === deckId);
+        
+        if(activeDeck === deckToBeDeleted) {
+            this.setState({
+                activeDeck: undefined
+            });
+        }
+
+        this.setState({
+            decks: decks.filter(deck => deck.id !== deckId)
+        });
+    }
+
     handleShowAddDeckModal = () => {
         this.setState({ showAddDeckModal: true });
     }
@@ -172,7 +204,7 @@ class App extends Component {
                     showModal={showEditDeckModal}
                     handleCloseModal={this.handleCloseEditDeckModal}
                 >
-                    <form>
+                    <form onSubmit={(e) => e.preventDefault()}>
                         <h3 className="form-title">
                             List of Cards:
                             <button className="icon" onClick={this.handleAddCardToDeck}>
@@ -193,6 +225,12 @@ class App extends Component {
                                         value={card.answer}
                                         onChange={(e) => this.updateCardWithId(e, card.id, 'answer')}
                                     />
+                                    <button
+                                        className="icon" 
+                                        onClick={() => this.handleDeleteCard(card.id)}
+                                    >
+                                        <i className="fa fa-ban"></i>
+                                    </button>
                                 </div>
                             </div>
                         ))}
@@ -201,6 +239,7 @@ class App extends Component {
 
                 <Sidebar
                     decks={decks}
+                    handleDeleteDeck={this.handleDeleteDeck}
                     handleShowAddDeckModal={this.handleShowAddDeckModal}
                     handleShowEditDeckModal={this.handleShowEditDeckModal}
                     handleSelectDeck={this.handleSelectDeck}

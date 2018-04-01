@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sidebar = ({ decks, handleShowAddDeckModal, handleSelectDeck, handleShowEditDeckModal }) => (
+const Sidebar = ({ decks, handleDeleteDeck, handleShowAddDeckModal, handleSelectDeck, handleShowEditDeckModal }) => (
     <div className="sidebar">
         <h2>Available decks</h2>
         {decks ? (
@@ -8,6 +8,9 @@ const Sidebar = ({ decks, handleShowAddDeckModal, handleSelectDeck, handleShowEd
                 {decks.map(deck => (
                     <li key={deck.id}>
                         { deck.name }
+                        <button className="icon" onClick={() => handleDeleteDeck(deck.id)}>
+                            <i className="fa fa-ban"></i>
+                        </button>
                         <button className="icon" onClick={() => handleShowEditDeckModal(deck.id)}>
                             <i className="fa fa-pencil"></i>
                         </button>
