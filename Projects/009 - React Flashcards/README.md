@@ -14,11 +14,12 @@ React FlashCard application which helps you easily learn & memorate 'things'.
 10. [x] Link play button with the corresponding Deck
 11. [x] Add animation when new Card is shown
 12. [x] Add delete functionality for decks and cards
+13. [x] Show progress: currentCorrectCards / totalCards
 
 ## To-do
-13. [ ] Show progress: currentCard / totalCards
-14. [ ] Create game loop where the user will play until all the cards were answered correctly
-15. [ ] Redesign the adding / editing of the decks and cards
+14. [ ] Redesign the app and the components
+15. [ ] Create game loop where the user will play until all the cards were answered correctly
+16. [ ] Do not allow empty cards to be saved
 
 ## Link
 

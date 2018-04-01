@@ -40,7 +40,6 @@ class Deck extends Component {
     }
 
     selectAnswer = (answer) => {
-        const { deck } = this.props;
         const { activeCardIndex, answers } = this.state;
         const cardsLength = this.props.deck.cards.length;
         let newActiveCardIndex = activeCardIndex + 1;
@@ -73,8 +72,10 @@ class Deck extends Component {
     }
 
     render () {
-        const { activeCardIndex, showAnswer, gameOver } = this.state;
+        const { answers, activeCardIndex, showAnswer, gameOver } = this.state;
         const { deck } = this.props;
+        const totalCorrectAnswers = answers.filter(answer =>  answer === KNOW).length;
+        const totalCards = deck.cards.length;
 
         if( !deck ) return (
             <h1> Please select a deck to start </h1>
@@ -88,6 +89,7 @@ class Deck extends Component {
 
         return ( 
             <div className="main">
+                <h1>You answered {totalCorrectAnswers} questions correctly out of {totalCards} questions.</h1>
                 <CSSTransitionGroup
                     transitionName="flashcard-animation"
                     transitionEnterTimeout={500}

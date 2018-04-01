@@ -109,6 +109,10 @@ ul.decks li button {
     margin-left: 30px;
 }
 
+.main h1 {
+    margin-top: -50px;
+}
+
 .flashcard-container {
     position: absolute;
     top: 0;
