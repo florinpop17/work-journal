@@ -34,6 +34,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 014 | [Day 14. 27.03.2018](./Daily%20Work%20Journal/Day%20014.%2027.03.2018.md) |
 | 015 | [Day 15. 29.03.2018](./Daily%20Work%20Journal/Day%20015.%2029.03.2018.md) |
 | 016 | [Day 16. 30.03.2018](./Daily%20Work%20Journal/Day%20016.%2030.03.2018.md) |
+| 017 | [Day 17. 01.04.2018](./Daily%20Work%20Journal/Day%20017.%2001.04.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
