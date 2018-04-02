@@ -1,0 +1,33 @@
+body {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.demo {
+    color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 100%;
+    text-align: left;
+    width: 500px;
+}
+
+.stars-container {
+    margin: 10px;
+    padding: 10px;
+    user-select: none;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.star.active, .star:hover {
+    color: yellow;
+}
