@@ -31,3 +31,16 @@ h2 {
 .star.active, .star:hover {
     color: yellow;
 }
+
+.theme-demo-container {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.theme-demo {
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: left;
+}
