@@ -44,3 +44,27 @@ h2 {
     padding: 20px;
     text-align: left;
 }
+
+footer {
+    background-color: #111;
+	bottom: 0;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
