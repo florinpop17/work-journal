@@ -31,16 +31,12 @@ class Particle {
         ellipse(this.pos.x, this.pos.y, this.r * 2);
     }
 
-    drawLine(particles) {
-        for(let particle of particles) {
-            if(particle !== this) {
-                let d = dist(particle.pos.x, particle.pos.y, this.pos.x, this.pos.y);
+    drawLine(particle) {
+        let d = dist(particle.pos.x, particle.pos.y, this.pos.x, this.pos.y);
 
-                if(d < LINE_RANGE) {
-                    stroke(255, 140 - d);
-                    line(particle.pos.x, particle.pos.y, this.pos.x, this.pos.y);
-                }
-            }
+        if(d < LINE_RANGE) {
+            stroke(255, 140 - d);
+            line(particle.pos.x, particle.pos.y, this.pos.x, this.pos.y);
         }
     }
 }
