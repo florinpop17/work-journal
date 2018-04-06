@@ -12,6 +12,8 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 006 | Dotted World Map | [Codepen](https://codepen.io/FlorinPop17/full/QmgEBe) - [Github](./Projects/006%20-%20Dotted%20World%20Map) |
 | 007 | Jumping Letters | [Codepen](https://codepen.io/FlorinPop17/full/XEgpvM/) - [Github](./Projects/007%20-%20Jumping%20Letters) |
 | 008 | Art of PI 2 | [Codepen](https://codepen.io/FlorinPop17/full/Ldjqgw) - [Github](./Projects/008%20-%20Art%20of%20PI%202) |
+| 009 | IDE Theme Recommendation Using ML | [Codepen](https://codepen.io/FlorinPop17/full/MVPGGy) - [Github](./Projects/009%20-%20IDE%20Theme%20Recommendation%20Using%20ML) |
+| 010 | Full Background Particle System | [Codepen](https://codepen.io/FlorinPop17/full/geBzZE) - [Github](./Projects/010%20-%20Full%20Background%20Particle%20System) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
