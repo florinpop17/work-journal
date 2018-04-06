@@ -1,10 +1,15 @@
 ## Description
 This application is using [brain.js](https://github.com/BrainJS)'s ML algorithms to recommend different IDE themes based on user preference. Inspired by [this](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw) youtube video.
 
-## To do
+## Done
 1. [x] Add link to Codepen
-2. [ ] Add gif
-3. [ ] Save data to localstorage
+
+## To do
+1. [ ] Add gif
+2. [ ] Save data to localstorage
+
+## Link
+Live on [Codepen](https://codepen.io/FlorinPop17/full/MVPGGy)
 
 ## Credits
 - [brain.js](https://github.com/BrainJS)
