@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --color-purple: #8e44ad;
     --color-blue: #2980b9;
@@ -31,29 +35,32 @@ img {
     clear: both;
 }
 
-.container .left-section, .container .right-section {
-    width: 48%;
-}
-
-.container .left-section {
-    margin-top: 40px;
-    float: left;
-}
-
-.container .right-section {
-    float: right;
+.container .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Box styling */
 .grid-box {
     color: #ffffff;
     display: block;
+    flex: 0 0 48%;
     padding: 20px;
     position: relative;
     margin-bottom: 40px;
     overflow: hidden;
     text-decoration: none;
     z-index: 1;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform .5s ease-in,
+        opacity .5s ease-in;
+}
+
+.grid-box.active {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .grid-box::after {
@@ -259,11 +266,11 @@ body.active .blog-container {
 .blog-container {
     background-color: #fff;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 700px;
     opacity: 0;
     transform: translateY(-400px);
-    transition: transform .8s ease-in-out,
-        opacity .5s ease-in-out;
+    transition: transform .6s ease-in-out,
+        opacity .3s ease-in-out;
 }
 
 .blog-container .grid-box {
@@ -304,10 +311,5 @@ body.active .blog-container {
 @media (max-width: 768px) {
     .container {
         max-width: 100%;
-    }
-
-    .container .left-section, .container .right-section {
-        float: none;
-        width: 100%;
     }
 }

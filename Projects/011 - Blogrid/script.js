@@ -1,6 +1,13 @@
 const body = document.querySelector('body');
+const boxes = document.querySelectorAll('.grid-box');
 
-function debounce(func, wait = 5, immediate = true) {
+boxes.forEach((box, idx) => {
+    setTimeout(function(box) {
+        box.classList.add('active');
+    }.bind(this, box), 300 * idx);
+});
+
+function debounce(func, wait = 1, immediate = true) {
     var timeout;
     return function() {
         var context = this, args = arguments;
@@ -14,7 +21,6 @@ function debounce(func, wait = 5, immediate = true) {
         if (callNow) func.apply(context, args);
     };
 };
-
 
 function showBlogContainer() {
     if (window.scrollY > 100) {

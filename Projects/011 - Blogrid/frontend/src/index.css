@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+:root {
+    --color-purple: #8e44ad;
+    --color-blue: #2980b9;
+    --color-green: #27ae60;
+    --color-red: #c0392b;
+    --color-grey: #777777;
+}
+
+body {
+    background: #434343;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    perspective: 1000px;
+}
+
+img {
+    max-width: 100%;
+}
