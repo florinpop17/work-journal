@@ -7,10 +7,12 @@ Blog Template UI created from scrach with HTML/CSS and JavaScript. Inspiration f
 - [x] Add Single Page Blog Content
 - [x] Convert to React template?
 - [x] Added styled-components
+- [x] Convert Page 2 to React
+- [x] Converted BlogCard to work well in 2 situations (in the BlogList and in the SinglePage components)
 
 ## To do
-- [ ] Convert Page 2 to React
-- [ ] Add React Router
+- [ ] Add animations on SinglePage
+- [ ] Add React Router to connect blog
 - [ ] Add Footer
 - [ ] Add Codepen Link
 

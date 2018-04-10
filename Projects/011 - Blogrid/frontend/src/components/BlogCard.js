@@ -10,8 +10,9 @@ const colors = {
 
 const GridBox = styled.div`
     color: #ffffff;
-    padding: 20px;
+    padding: ${props => props.isHeader ? '150px 50px 20px': '20px'};
     position: relative;
+    margin-top: ${props => props.isHeader ? '-50px': '0px'};
     margin-bottom: 40px;
     overflow: hidden;
     z-index: 1;
@@ -75,11 +76,16 @@ const Tag = styled.span`
     ${props => `background-color: var(--color-${colors[props.color] ? colors[props.color] : 'grey'})`};
 `;
 
+const Date = styled.small`
+    display: block;
+    margin-bottom: 5px;
+`
+
 const Title = styled.h2`
     font-size: 30px;
     line-height: 36px;
     font-weight: 300;
-    max-width: 70%;
+    max-width: 80%;
 `;
 
 const NextLink = styled.a`
@@ -105,12 +111,14 @@ const NextLink = styled.a`
 `;
 
 const AuthorContainer = styled.div`
-    float: right;
+    float: ${props => props.isHeader ? 'left' : 'right'};
     padding: 10px;
-    margin-top: 50px;
-    text-align: right;
-    opacity: 0;
-    transform: translateY(-20px);
+    margin-top: 30px;
+    text-align: ${props => props.isHeader ? 'left' : 'right'};
+    ${props => !props.isHeader && `
+        opacity: 0;
+        transform: translateY(-20px);
+    `}
     transition: transform .3s ease-in-out,
         opacity .3s ease-in-out;
 `;
@@ -122,27 +130,42 @@ const Author = styled.h4`
 const AuthorImg = styled.img`
     border-radius: 5px;
     object-fit: cover;
-    margin-left: 10px;
+    margin: ${props => props.isHeader ? '0 20px 0 0' : '0 0 0 10px'};
     height: 60px;
     width: 60px;
 `;
 
-const BlogCard = ({ card: { title, bgImage, author, date, tag, authorImage } }) => (
-    <GridBox>
+const BlogCard = ({ isHeader, card: { title, bgImage, author, date, tag, authorImage } }) => (
+    <GridBox isHeader={isHeader}>
         <BackgroundImage className="background-img" src={ require(`../img/${bgImage}`) } alt="bg" />
-        <Tag color={tag}>{ tag }</Tag>
+        {isHeader ? (
+            <Date>{ date }</Date>
+        ) : (
+            <Tag color={tag}>{ tag }</Tag>
+        )}
         <Title>{ title }</Title>
-        <NextLink href="single.html">
-            <i className="fa fa-long-arrow-right"></i>
-        </NextLink>
-        <AuthorContainer className="author-container">
+        {!isHeader && (
+            <NextLink href="single.html">
+                <i className="fa fa-long-arrow-right"></i>
+            </NextLink>
+        )}
+        <AuthorContainer className="author-container" isHeader={isHeader}>
             <div className="row">
-                <div className="col-xs-8">
+                <div className={`col-xs-8 ${isHeader && 'order-2'}`}>
+                    {isHeader && (
+                        <small>written by</small>
+                    )}
                     <Author>{ author }</Author>
-                    <small>{ date }</small>
+                    {!isHeader && (
+                        <small>{ date }</small>
+                    )}
                 </div>
                 <div className="col-xs-4">
-                    <AuthorImg src={ require(`../img/${authorImage}`) } alt="author" />
+                    <AuthorImg
+                        src={ require(`../img/${authorImage}`) }
+                        alt="author"
+                        isHeader={isHeader}
+                    />
                 </div>
             </div>
         </AuthorContainer>

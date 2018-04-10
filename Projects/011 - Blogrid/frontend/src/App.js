@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import { BlogList } from './components';
+import { BlogList, SinglePage } from './components';
 import mockCards from './mockCards';
 
 class App extends Component {
     state = {
-        cards : mockCards
+        cards: mockCards,
+        selectedCard: mockCards[1]
     }
 
     render() {
-        const { cards } = this.state;
+        const { cards, selectedCard } = this.state;
         return (
             <div>
-                <h1>My App</h1>
-                <BlogList cards={cards}/>
+                {/* <BlogList cards={cards} /> */}
+                <SinglePage card={selectedCard} />
             </div>
         );
     }
