@@ -12,4 +12,5 @@ Crated a particle system in p5js similar to [this](https://vincentgarreau.com/pa
 Live on [Codepen](https://codepen.io/FlorinPop17/full/geBzZE)
 
 ## Credits
-- [Particles.js](https://vincentgarreau.com/particles.js/)
+- [Particles.js](https://vincentgarreau.com/particles.js/) - for the idea
+- [p5js](https://p5js.org/) - used for implementation
