@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+button {
+    background-color: #fff;
+    border: 0;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+    transition: color .2s ease-in;
+}
+
+button:hover {
+    color: #222;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide .left-slide {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    transform: translateY(-100%);
+    transition: transform .5s ease-in-out;
+}
+
+.slide.active .left-slide {
+    transform: translateY(0) !important;
+}
+
+.slide .left-slide h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.slide .right-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transform: translateY(100%);
+    transition: transform .5s ease-in-out;
+}
+
+.slide.active .right-slide {
+    transform: translateY(0) !important;
+}
+
+.slider-container .action-buttons .down-button {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    left: 35%;
+    transform: translateX(-100%);
+    top: 50%;
+    z-index: 100;
+}
+
+.slider-container .action-buttons .up-button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-100%);
+    z-index: 100;
+}
+
+
+
+
+
+footer {
+    bottom: 0;
+    background-color: #222;
+	color: #fff;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
