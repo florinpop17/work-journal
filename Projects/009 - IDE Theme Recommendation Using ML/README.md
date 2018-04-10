@@ -5,7 +5,7 @@ This application is using [brain.js](https://github.com/BrainJS)'s ML algorithms
 
 ## Done
 - [x] Add link to Codepen
-- [x] Add gif
+- [x] Add example image
 
 ## To do
 - [ ] Save data to localstorage
