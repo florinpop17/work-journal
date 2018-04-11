@@ -5,7 +5,7 @@
 ![Blogrid - 2](./example2.gif)
 
 ## Description
-Blog Template UI created from scrach with HTML/CSS and JavaScript. Inspiration from [Webflow.io](http://template-gridded.webflow.io/).
+Blog Template UI created from scrach with HTML/CSS and JavaScript and then converted it to a React template with React Router & Styled Components.
 
 ## How to run it
 1. download the `frontend` folder, which is a React project
@@ -24,5 +24,8 @@ Blog Template UI created from scrach with HTML/CSS and JavaScript. Inspiration f
 - [x] Add Footer
 
 ## Credits
-- Images from [Pexels](https://www.pexels.com/);
-- [Webflow.io](http://template-gridded.webflow.io/)
+- [React](https://reactjs.org)
+- [Styled Component](https://www.styled-components.com/)
+- [React Router](https://reacttraining.com/react-router/)
+- Images from [Pexels](https://www.pexels.com/)
+- Inspiration from [Webflow.io](http://template-gridded.webflow.io/)
