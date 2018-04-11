@@ -8,7 +8,8 @@ Double vertical slider as in this [Codepen](https://codepen.io/GrandvincentMario
 - [x] Fix animation positioning issue
 
 ## To do
-- [x] Add Codepen Link
+- [ ] Add Codepen Link
+- [ ] Add gif example
 
 ## Credits
 - Images from [Unsplash](https://unsplash.com/)
