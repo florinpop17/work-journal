@@ -9,7 +9,8 @@ Blog Template UI created from scrach with HTML/CSS and JavaScript and then conve
 
 ## How to run it
 1. download the `frontend` folder, which is a React project
-2. run `yarn start` and the project will open in your browser
+2. run `yarn` to install all the dependencies
+3. run `yarn start` and the project will open in your browser
 
 ## Done
 - [x] Add Single Page
