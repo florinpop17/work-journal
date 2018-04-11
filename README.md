@@ -2,9 +2,9 @@
 A personal journal which holds a number of my projects, plans and resources for future reference.
 
 ## Projects
-| #   | Name | Link | Image |
-| --- | ---- | ---- | ----- |
-| 001 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/full/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI) | ![Art of PI](./Projects/001%20-%20Art%20of%20PI/example.png)
+| #   | Name | Link |
+| --- | ---- | ---- |
+| 001 | Art of PI | [Codepen](https://codepen.io/FlorinPop17/full/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI) |
 | 002 | Steering points in image | [Codepen](https://codepen.io/FlorinPop17/full/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image) |
 | 003 | Path following | [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb) - [Github](./Projects/003%20-%20Path%20following) |
 | 004 | Circle Packing | [Codepen](https://codepen.io/FlorinPop17/full/WzGQxp) - [Github](./Projects/004%20-%20Circle%20Packing) |
