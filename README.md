@@ -14,6 +14,8 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 008 | Art of PI 2 | [Codepen](https://codepen.io/FlorinPop17/full/Ldjqgw) - [Github](./Projects/008%20-%20Art%20of%20PI%202) |
 | 009 | IDE Theme Recommendation Using ML | [Codepen](https://codepen.io/FlorinPop17/full/MVPGGy) - [Github](./Projects/009%20-%20IDE%20Theme%20Recommendation%20Using%20ML) |
 | 010 | Full Background Particle System | [Codepen](https://codepen.io/FlorinPop17/full/geBzZE) - [Github](./Projects/010%20-%20Full%20Background%20Particle%20System) |
+| 011 | Blogrid | [Github](./Projects/011%20-%20Blogrid) |
+| 012 | Double Vertical Slider | [Codepen](https://codepen.io/FlorinPop17/full/mxgJxX) - [Github](./Projects/012%20-%20Double%20Vertical%20Slider) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
