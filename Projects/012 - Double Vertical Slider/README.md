@@ -5,9 +5,10 @@ Double vertical slider as in this [Codepen](https://codepen.io/GrandvincentMario
 - [x] Split page in 2 panes
 - [x] Gathered images for the slider
 - [x] Created animation
+- [x] Fix animation positioning issue
 
 ## To do
-- [ ] Fix animation positioning issue
+- [x] Add Codepen Link
 
 ## Credits
 - Images from [Unsplash](https://unsplash.com/)

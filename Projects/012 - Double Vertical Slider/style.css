@@ -36,81 +36,65 @@ button:focus {
     height: 100vh;
 }
 
-.slide {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
-.slide .left-slide {
-    align-items: center;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
+.left-slide {
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     width: 35%;
-    transform: translateY(-100%);
     transition: transform .5s ease-in-out;
 }
 
-.slide.active .left-slide {
-    transform: translateY(0) !important;
+.left-slide > div {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
-.slide .left-slide h1 {
+.left-slide h1 {
     font-size: 40px;
     margin-bottom: 10px;
 }
 
-.slide .right-slide {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
+.right-slide {
+    height: 100%;
     position: absolute;
     top: 0;
     left: 35%;
     width: 65%;
-    transform: translateY(100%);
     transition: transform .5s ease-in-out;
 }
 
-.slide.active .right-slide {
-    transform: translateY(0) !important;
+.right-slide > div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.slider-container .action-buttons button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
 }
 
 .slider-container .action-buttons .down-button {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    position: absolute;
-    left: 35%;
     transform: translateX(-100%);
-    top: 50%;
-    z-index: 100;
 }
 
 .slider-container .action-buttons .up-button {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    position: absolute;
-    left: 35%;
-    top: 50%;
     transform: translateY(-100%);
-    z-index: 100;
 }
-
-
-
-
 
 footer {
     bottom: 0;
