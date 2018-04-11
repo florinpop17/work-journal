@@ -12,8 +12,6 @@ body {
     background: #434343;
     color: #fff;
     font-family: 'Lato', sans-serif;
-    height: 100vh;
-    perspective: 1000px;
 }
 
 img {

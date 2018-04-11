@@ -5,7 +5,7 @@ const mockCards = [
         author: 'John Doe',
         date: 'February 28, 2018',
         tag: 'business',
-        bgImage: `img-1.jpg`,
+        bgImage: `img-6.jpeg`,
         authorImage: `pers-1.jpeg`
     }, {
         id: 2,
@@ -30,6 +30,14 @@ const mockCards = [
         date: 'March 1, 2018',
         tag: 'tech',
         bgImage: `img-3.jpeg`,
+        authorImage: `pers-3.jpeg`
+    }, {
+        id: 5,
+        title: 'Latest Fashion Men Trends in 2018',
+        author: 'John Doe',
+        date: 'March 4, 2018',
+        tag: 'lifestyle',
+        bgImage: `img-7.jpeg`,
         authorImage: `pers-3.jpeg`
     }
 ]
