@@ -1,5 +1,15 @@
+### Blog posts list
+![Blogrid - 1](./example1.gif)
+
+### Blog page
+![Blogrid - 2](./example2.gif)
+
 ## Description
 Blog Template UI created from scrach with HTML/CSS and JavaScript. Inspiration from [Webflow.io](http://template-gridded.webflow.io/).
+
+## How to run it
+1. download the `frontend` folder, which is a React project
+2. run `yarn start` and the project will open in your browser
 
 ## Done
 - [x] Add Single Page
@@ -12,9 +22,6 @@ Blog Template UI created from scrach with HTML/CSS and JavaScript. Inspiration f
 - [x] Add animations on SinglePage
 - [x] Add React Router to connect blog
 - [x] Add Footer
-
-## To do
-- [ ] Add Live Link
 
 ## Credits
 - Images from [Pexels](https://www.pexels.com/);
