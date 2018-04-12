@@ -36,7 +36,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(240);
     drawPoints();
     drawBall();
     update();

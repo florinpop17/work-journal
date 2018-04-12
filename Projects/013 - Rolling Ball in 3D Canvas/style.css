@@ -8,7 +8,7 @@ body {
 	flex-direction: column;
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	height: 100vh;
-	justify-content: center;
+	justify-content: flex-start;
 	margin: 0;
 	perspective: 800px;
 }
