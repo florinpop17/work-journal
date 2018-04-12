@@ -16,6 +16,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 010 | Full Background Particle System | [Codepen](https://codepen.io/FlorinPop17/full/geBzZE) - [Github](./Projects/010%20-%20Full%20Background%20Particle%20System) |
 | 011 | Blogrid | [Github](./Projects/011%20-%20Blogrid) |
 | 012 | Double Vertical Slider | [Codepen](https://codepen.io/FlorinPop17/full/mxgJxX) - [Github](./Projects/012%20-%20Double%20Vertical%20Slider) |
+| 013 | Rolling Ball in 3D Canvas | [Codepen](https://codepen.io/FlorinPop17/full/mxYbbO) - [Github](./Projects/013%20-%20Rolling%20Ball%20in%203D%20Canvas) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
@@ -47,6 +48,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 023 | [Day 23. 09.04.2018](./Daily%20Work%20Journal/Day%20023.%2009.04.2018.md) |
 | 024 | [Day 24. 10.04.2018](./Daily%20Work%20Journal/Day%20024.%2010.04.2018.md) |
 | 025 | [Day 25. 11.04.2018](./Daily%20Work%20Journal/Day%20025.%2011.04.2018.md) |
+| 026 | [Day 26. 12.04.2018](./Daily%20Work%20Journal/Day%20026.%2012.04.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
