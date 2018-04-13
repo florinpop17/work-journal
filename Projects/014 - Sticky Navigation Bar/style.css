@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #fff;
+	color: #222;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #222;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+nav .container {
+    align-items: center;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: bottom center;
+    color: #fff;
+    display: flex;
+    height: calc(100vh - 70px);
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    z-index: -2;
+}
+
+.hero::before {
+    content: ' ';
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin: -20px 0 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+footer p {
+	margin: 10px 0;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
