@@ -8,6 +8,8 @@ A simple website design with a sticky navigation bar which will activate on scro
 
 ## To do
 - [ ] make the navigation responsive with hamburger menu
+- [ ] add codepen link
+- [ ] add gif example
 
 ## Credits
 - Images from [Pexels](https://www.pexels.com/)
