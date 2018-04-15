@@ -4,14 +4,10 @@ A simple website design with a sticky navigation bar which will activate on scro
 ## Done
 - [x] create navigation
 - [x] create hero image
+- [x] create sticky navigation functionality in JS
 
 ## To do
-- [ ] create sticky navigation functionality in JS
-- [ ] create design for navigation when it's sticky
-- [ ] add about section
-- [ ] add services section
-- [ ] add contact section
-
+- [ ] make the navigation responsive with hamburger menu
 
 ## Credits
 - Images from [Pexels](https://www.pexels.com/)

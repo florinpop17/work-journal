@@ -9,11 +9,22 @@
 body {
 	background-color: #fff;
 	color: #222;
-	font-family: 'Open Sans', 'Arial', sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    padding-bottom: 50px;
 }
 
 nav {
     background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+}
+
+nav.active {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -26,6 +37,11 @@ nav .container {
     display: flex;
     padding: 20px 0;
     justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+nav.active .container {
+    padding: 10px 0;
 }
 
 nav ul {
@@ -35,17 +51,31 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li:last-of-type {
-    margin-right: 0;
-}
-
 nav a {
     color: #fff;
+    padding: 7px 15px;
     text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+nav li a:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+nav.active a {
+    color: #000;
+    padding: 7px 10px;
+}
+
+nav.active li a:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+nav a.active {
+    background-color: #c0392b;
+    color: #fff;
 }
 
 .hero {
@@ -55,7 +85,7 @@ nav a {
     background-position: bottom center;
     color: #fff;
     display: flex;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 30px);
     justify-content: center;
     position: relative;
     text-align: center;
@@ -82,6 +112,17 @@ nav a {
 .hero p {
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+.content h2, .content h3 {
+    font-size: 150%;
+    margin: 10px 0;
+}
+
+.content p {
+    color: #555;
+    line-height: 30px;
+    letter-spacing: 1.5px;
 }
 
 footer {
