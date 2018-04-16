@@ -4,7 +4,7 @@ let amp;
 let volHistory = [];
 
 function preload() {
-    song = loadSound('http://florin-pop.com/static/music/bensound-memories.mp3');
+    song = loadSound('bensound-memories.mp3');
 }
 
 function setup() {
