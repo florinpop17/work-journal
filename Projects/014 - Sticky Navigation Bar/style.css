@@ -148,3 +148,10 @@ footer a {
 	color: #3C97BF;
 	text-decoration: none;
 }
+
+@media (max-width: 1200px) {
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

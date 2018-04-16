@@ -1,3 +1,5 @@
+![Sticky Navigation Bar](./example.gif)
+
 ## Description
 A simple website design with a sticky navigation bar which will activate on scroll.
 
