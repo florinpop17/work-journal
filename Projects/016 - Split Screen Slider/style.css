@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    --blue-color: #697FF9;
+    --white-color: #EBF3F6;
+}
+
+body {
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	height: 100vh;
+	justify-content: center;
+	margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+small {
+    margin-bottom: 10px;
+}
+
+.slider-container {
+    position: relative;
+    height: 55vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.slider.top {
+    background-color: var(--blue-color);
+}
+
+.slider.bottom {
+    background-color: var(--white-color);
+    color: #222;
+}
+
+.slider .wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100vw;
+}
+
+.slider.top{
+    width: 50vw;
+    z-index: 1;
+}
+
+.slider .content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25vw;
+}
+
+.slider.top .content {
+    left: 15%;
+}
+
+.slider.bottom .content {
+    right: 15%;
+}
+
+.slider img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+}
+
+/* Workaround as the images are not aligned */
+.slider.top img {
+    margin-left: 0.2vw;
+}
+.slider.bottom img {
+    margin-left: -0.5vw;
+}
+
+.handle {
+    background-color: #222;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 200%;
+    transform: rotate(30deg) translateY(-50%);
+    transform-origin: top;
+    z-index: 2;
+}
+
+.skewed .top {
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+}
+
+.skewed .top .wrapper {
+    transform: skew(30deg);
+    margin-left: 1000px;
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	letter-spacing: 1px;
+    text-align: center;
+    z-index: 9999;
+}
+
+footer p {
+	margin: 10px 0;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3C97BF;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        font-size: 75%;
+    }
+}
