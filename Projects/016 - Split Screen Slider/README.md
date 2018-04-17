@@ -1,3 +1,5 @@
+![Split Screen Slider](./example.gif)
+
 ## Description
 Move your mouse on the split screen slider to see the animation.
 
