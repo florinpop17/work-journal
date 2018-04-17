@@ -19,6 +19,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 013 | Rolling Ball in 3D Canvas | [Codepen](https://codepen.io/FlorinPop17/full/mxYbbO) - [Github](./Projects/013%20-%20Rolling%20Ball%20in%203D%20Canvas) |
 | 014 | Sticky Navigation Bar | [Codepen](https://codepen.io/FlorinPop17/full/xWvyaN) - [Github](./Projects/014%20-%20Sticky%20Navigation%20Bar) |
 | 015 | Circle Sound | [website](http://florin-pop.com/work/Circle%20Sound/) - [Github](./Projects/015%20-%20Circle%20Sound) |
+| 016 | Split Screen Slider | [Codepen](https://codepen.io/FlorinPop17/full/KRPBmB) - [Github](./Projects/016%20-%20Split%20Screen%20Slider) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.

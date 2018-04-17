@@ -1,8 +1,10 @@
+![Split Screen Slider](./example.gif)
+
 ## Description
 Move your mouse on the split screen slider to see the animation.
 
 ## Link
-You can see the version live on my [website](https://codepen.io/FlorinPop17/full/KRPBmB).
+You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/KRPBmB).
 
 ## Credits
 - Inspired from [Traversy Media](https://www.youtube.com/watch?v=5F0EvajMlXo&t=825s)
