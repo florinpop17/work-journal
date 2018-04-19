@@ -8,9 +8,12 @@ let gameEnded = false;
 let gameFroze = true;
 let lastPiece;
 let img;
+let startTime;
+let currentTime;
 
 // DOM
 const btn = document.getElementById('btn');
+const time = document.getElementById('time');
 let canvas;
 
 btn.addEventListener('click', (e) => {
@@ -21,12 +24,17 @@ btn.addEventListener('click', (e) => {
         setTimeout(randomize, 10 * i);
     }
 
-    // Unfroze the keyboard && restart the game if needed
-    gameFroze = false;
-    gameEnded = false;
-
-    // Start the loop
-    loop();
+    setTimeout(() => {
+        // Unfroze the keyboard && restart the game if needed
+        gameFroze = false;
+        gameEnded = false;
+    
+        // Start the drawing loop
+        loop();
+    
+        // Save the starting time
+        startTime = new Date().getTime();
+    }, 1500);
 });
 
 function preload() {
@@ -50,15 +58,23 @@ function setup() {
 function draw() {
     background(255);
 
+    // Update current time
+    currentTime = new Date().getTime();
+    let diff = Math.floor((currentTime - startTime) / 1000);
+
     if(!gameEnded) {
         PUZZLE.forEach(row => row.forEach(piece => {
             piece.draw();
         }));
+
+        // update the DOM
+        time.innerHTML = diff ? `${diff}s` : '';
+        time.style.display = diff ? 'block' : 'none';
     } else {
         background(200);
         stroke(0);
-        textSize(width / 10);
-        text('YOU WON!', width / 2, height / 2);
+        textSize(width / 20);
+        text(`YOU WON IN ${diff}s!`, width / 2, height / 2);
         textSize(width / 30);
         text('Click the start button to play again!', width / 2, height / 2 + 50);
         noLoop();

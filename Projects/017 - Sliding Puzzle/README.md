@@ -12,9 +12,9 @@ Try to solve the puzzle as fast as possible.
 - [x] keep the aspect ration of the image in the canvas
 - [x] allow user to move the empty piece
 - [x] add start & end game scenarios
+- [x] add a timer
 
 ## To do
-- [ ] add a timer
 - [ ] animate the pieces with physics
 
 ## Link
