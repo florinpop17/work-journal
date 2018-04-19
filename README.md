@@ -20,6 +20,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 014 | Sticky Navigation Bar | [Codepen](https://codepen.io/FlorinPop17/full/xWvyaN) - [Github](./Projects/014%20-%20Sticky%20Navigation%20Bar) |
 | 015 | Circle Sound | [website](http://florin-pop.com/work/Circle%20Sound/) - [Github](./Projects/015%20-%20Circle%20Sound) |
 | 016 | Split Screen Slider | [Codepen](https://codepen.io/FlorinPop17/full/KRPBmB) - [Github](./Projects/016%20-%20Split%20Screen%20Slider) |
+| 017 | Sliding Pizzle | [Codepen](https://codepen.io/FlorinPop17/full/yjLZga) - [Github](./Projects/017%20-%20Sliding%20Pizzle) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
@@ -56,6 +57,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 028 | [Day 28. 15.04.2018](./Daily%20Work%20Journal/Day%20028.%2015.04.2018.md) |
 | 029 | [Day 29. 16.04.2018](./Daily%20Work%20Journal/Day%20029.%2016.04.2018.md) |
 | 030 | [Day 30. 17.04.2018](./Daily%20Work%20Journal/Day%20030.%2017.04.2018.md) |
+| 031 | [Day 31. 18.04.2018](./Daily%20Work%20Journal/Day%20031.%2018.04.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
