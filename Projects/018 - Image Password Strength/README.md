@@ -1,5 +1,5 @@
 ## Description
-An pixelate image generated based on the password strength using HTML5 canvas with p5js.
+A pixelated image generated based on the password strength using HTML5 canvas with p5js.
 
 ## Link
 You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/odbydZ).
