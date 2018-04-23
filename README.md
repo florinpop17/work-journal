@@ -21,6 +21,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 015 | Circle Sound | [website](http://florin-pop.com/work/Circle%20Sound/) - [Github](./Projects/015%20-%20Circle%20Sound) |
 | 016 | Split Screen Slider | [Codepen](https://codepen.io/FlorinPop17/full/KRPBmB) - [Github](./Projects/016%20-%20Split%20Screen%20Slider) |
 | 017 | Sliding Pizzle | [Codepen](https://codepen.io/FlorinPop17/full/yjLZga) - [Github](./Projects/017%20-%20Sliding%20Puzzle) |
+| 018 | Image Password Strength | [Codepen](https://codepen.io/FlorinPop17/full/odbydZ) - [Github](./Projects/018%20-%20Image%20Password%20Strength) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
@@ -61,6 +62,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 032 | [Day 32. 19.04.2018](./Daily%20Work%20Journal/Day%20032.%2019.04.2018.md) |
 | 033 | [Day 33. 20.04.2018](./Daily%20Work%20Journal/Day%20033.%2020.04.2018.md) |
 | 034 | [Day 34. 22.04.2018](./Daily%20Work%20Journal/Day%20034.%2022.04.2018.md) |
+| 035 | [Day 35. 23.04.2018](./Daily%20Work%20Journal/Day%20035.%2023.04.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
