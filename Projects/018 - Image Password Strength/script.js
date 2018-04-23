@@ -1,11 +1,14 @@
 const password = document.getElementById('password');
 const imgSrc = 'city.jpg';
+const maxPixels = 50;
 let img;
 let quality = [];
+let done = false;
 
 password.addEventListener('keyup', (e) => {
+    // Change this to improve the strength check
     const strength = e.target.value.length;
-    const mappedStrength = Math.round(mapRange(strength, 0, 10, 50, 1));
+    const mappedStrength = Math.floor(mapRange(strength, 0, 10, maxPixels, 1));
     drawImageFromPoints(mappedStrength);
 });
 
@@ -27,7 +30,7 @@ function setup() {
     img.resize(width, 0);
     image(img, 0, 0);
     loadPixels();
-    drawImageFromPoints(100);
+    drawImageFromPoints(maxPixels);
 }
 
 function getPoints(step) {
@@ -57,8 +60,12 @@ function getPoints(step) {
 function drawImageFromPoints(step) {
     const points = getPoints(step);
 
-    if(step < 5) {
-        image(img, 0, 0);
+    if(step < 10) {
+        // A small check to prevent drawing the image multiple times when the password is already strength enough
+        if(!done) {
+            image(img, 0, 0);
+            done = true;
+        }
     } else {
         points.forEach(p => {
             let color = p.c;
@@ -66,5 +73,6 @@ function drawImageFromPoints(step) {
             fill(...color);
             rect(p.x, p.y, p.s, p.s);
         });
+        done = false;
     }
 }
