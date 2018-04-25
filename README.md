@@ -63,6 +63,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 033 | [Day 33. 20.04.2018](./Daily%20Work%20Journal/Day%20033.%2020.04.2018.md) |
 | 034 | [Day 34. 22.04.2018](./Daily%20Work%20Journal/Day%20034.%2022.04.2018.md) |
 | 035 | [Day 35. 23.04.2018](./Daily%20Work%20Journal/Day%20035.%2023.04.2018.md) |
+| 036 | [Day 36. 24.04.2018](./Daily%20Work%20Journal/Day%20036.%2024.04.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
