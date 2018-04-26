@@ -1,3 +1,10 @@
+const imgSrc = 'https://image.ibb.co/jS0zTc/bird.png';
+let img;
+
+function preload() {
+    img = loadImage(imgSrc);
+}
+
 class Bird {
     constructor() {
         this.x = 60;
@@ -13,9 +20,10 @@ class Bird {
     }
 
     draw() {
-        noStroke();
-        fill(255, 100);
-        ellipse(this.x, this.y, this.r * 2);
+        // fill(255);
+        // ellipse(this.x, this.y, this.r * 2);
+        imageMode(CENTER);
+        image(img, this.x, this.y, this.r * 2, this.r * 2);
     }
 
     think(pipes) {

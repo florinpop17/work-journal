@@ -9,7 +9,8 @@ class Pipe {
     }
 
     draw() {
-        fill(255);
+        fill('#44bd32');
+        noStroke();
         rect(this.x, 0, this.w, this.top);
         rect(this.x, this.bottom, this.w, height);
     }

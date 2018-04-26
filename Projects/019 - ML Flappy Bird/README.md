@@ -14,7 +14,7 @@
 - [x] create a slider to be able to control how fast the NN will learn
 - [x] add bird "death" when hits the floor or ceiling
 - [x] add text outside the canvas or make it visible
+- [x] add nice graphics to the game
 
 ## To do
-- [ ] add nice graphics to the game
 - [ ] switch to Brain.js for NN

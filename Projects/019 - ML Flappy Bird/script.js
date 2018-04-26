@@ -65,7 +65,7 @@ function draw() {
     }
 
     // Drawing
-    background(50);
+    background('#00a8ff');
 
     // Draw the birds
     birds.forEach(bird => {
