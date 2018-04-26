@@ -22,6 +22,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 016 | Split Screen Slider | [Codepen](https://codepen.io/FlorinPop17/full/KRPBmB) - [Github](./Projects/016%20-%20Split%20Screen%20Slider) |
 | 017 | Sliding Pizzle | [Codepen](https://codepen.io/FlorinPop17/full/yjLZga) - [Github](./Projects/017%20-%20Sliding%20Puzzle) |
 | 018 | Image Password Strength | [Codepen](https://codepen.io/FlorinPop17/full/odbydZ) - [Github](./Projects/018%20-%20Image%20Password%20Strength) |
+| 019 |  ML Flappy Bird | [Codepen](https://codepen.io/FlorinPop17/full/OZXrJG) - [Github](./Projects/019%20-%20ML%20Flappy%20Bird) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
@@ -65,6 +66,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 035 | [Day 35. 23.04.2018](./Daily%20Work%20Journal/Day%20035.%2023.04.2018.md) |
 | 036 | [Day 36. 24.04.2018](./Daily%20Work%20Journal/Day%20036.%2024.04.2018.md) |
 | 037 | [Day 37. 25.04.2018](./Daily%20Work%20Journal/Day%20037.%2025.04.2018.md) |
+| 038 | [Day 38. 26.04.2018](./Daily%20Work%20Journal/Day%20038.%2026.04.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
