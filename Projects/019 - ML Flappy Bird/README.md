@@ -1,3 +1,9 @@
+## Description
+Flappy bird - the bird is learning to fly between the pipes by using Machine Learning and Genetic Algorithm to train it.
+
+## Link
+You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/OZXrJG)
+
 ## Done
 - [x] create Bird
 - [x] create Pipes
@@ -18,3 +24,10 @@
 
 ## To do
 - [ ] switch to Brain.js for NN
+- [ ] add gif example
+
+## Credits
+- [FontAwesome v4](https://fontawesome.com/)
+- Built with [p5js](https://p5js.org)
+- Inspired from [TheCodingTrain](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
+- Also the matrix & nn libraries from [TheCodingTrain](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
