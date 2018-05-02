@@ -29,7 +29,6 @@ class Ball {
         f1 *= 30;
         f2 *= 30;
         const force = createVector(f1, f2);
-        console.log(f1, f2);
         this.applyForce(force);
     }
 
