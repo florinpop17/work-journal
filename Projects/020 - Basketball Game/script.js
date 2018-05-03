@@ -27,9 +27,8 @@ function setup() {
 
         oldGenerationBalls = [];
         generation++;
-
-        setTimeout(pushBalls, 100);
-    }, 1000);
+        pushBalls();
+    }, 500);
 }
 
 function draw() {
