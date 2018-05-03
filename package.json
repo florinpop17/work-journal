@@ -17,7 +17,5 @@
     "url": "https://github.com/florinpop17/work-journal/issues"
   },
   "homepage": "https://github.com/florinpop17/work-journal#readme",
-  "dependencies": {
-    "react-transition-group": "^2.3.0"
-  }
+  "dependencies": {}
 }
