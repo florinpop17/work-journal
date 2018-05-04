@@ -1,6 +1,6 @@
 const CANVAS_SIZE = Math.min(600, window.innerHeight, window.innerWidth);
 const WALL_SIZE = 10;
-const { Engine, Render, World, Bodies, Body } = Matter;
+const { Engine, Events, Render, World, Bodies, Body } = Matter;
 
 const engine = Engine.create();
 const render = Render.create({
@@ -8,7 +8,8 @@ const render = Render.create({
     engine: engine,
     options: {
         width: CANVAS_SIZE,
-        height: CANVAS_SIZE
+        height: CANVAS_SIZE,
+        wireframes: false
     }
 });
 
@@ -29,7 +30,6 @@ const hoopOptions = {
     restitution: 0,
     render: {
         fillStyle: '#ffff00',
-        lineWidth: 2
     }
 }
 
@@ -40,6 +40,7 @@ const hoopHeight = 60;
 const leftHoop = Bodies.rectangle(hoopX - hoopWidth / 2, hoopY, 10, hoopHeight, hoopOptions);
 const rightHoop = Bodies.rectangle(hoopX + hoopWidth / 2, hoopY, 10, hoopHeight, hoopOptions);
 const bottomHoop = Bodies.rectangle(hoopX, hoopY + hoopHeight / 2, hoopWidth, 10, hoopOptions);
+bottomHoop.label = 'bottomHoop';
 
 // Hoop Boundaries
 
@@ -47,6 +48,7 @@ const ballOptions = {
     restitution: 0.7
 };
 const ball = Bodies.circle(CANVAS_SIZE - 100, 50, 30, ballOptions);
+ball.label = 'ball';
 
 World.add(engine.world, [topWall, rightWall, bottomWall, leftWall, ball, leftHoop, rightHoop, bottomHoop]);
 
@@ -63,6 +65,18 @@ function pushBall(e) {
     const forceY = (y - mouseY) / 10;
     // const x = Math.random() * 20 -10; // between -10, 10
     // const y = Math.random() * 20 -10; // between -10, 10
-    console.log(forceX, forceY);
     Body.setVelocity(ball, { x: forceX, y: forceY });
 }
+
+Events.on(engine, 'collisionStart', e => {
+    const { pairs } = e;
+
+    // change object colours to show those in an active collision (e.g. resting contact)
+    pairs.forEach(pair => {
+        const { bodyA, bodyB } = pair;
+        if(bodyA.label === 'ball' && bodyB.label === 'bottomHoop' ||
+            bodyA.label === 'bottomHoop' && bodyB.label === 'ball') {
+                console.log('scorred!');
+            }
+    });
+});
