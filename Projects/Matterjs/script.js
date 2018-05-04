@@ -1,6 +1,6 @@
 const CANVAS_SIZE = Math.min(600, window.innerHeight, window.innerWidth);
 const WALL_SIZE = 10;
-const { Engine, Events, Render, World, Bodies, Body } = Matter;
+const { Bodies, Body, Constraint, Engine, Events, Mouse, MouseConstraint, Render, World } = Matter;
 
 const engine = Engine.create();
 const render = Render.create({
@@ -50,7 +50,16 @@ const ballOptions = {
 const ball = Bodies.circle(CANVAS_SIZE - 100, 50, 30, ballOptions);
 ball.label = 'ball';
 
-World.add(engine.world, [topWall, rightWall, bottomWall, leftWall, ball, leftHoop, rightHoop, bottomHoop]);
+let rockOptions = { density: 0.004 },
+rock = Bodies.polygon(170, 450, 8, 20, rockOptions),
+anchor = { x: 170, y: 450 },
+elastic = Constraint.create({ 
+    pointA: anchor, 
+    bodyB: rock, 
+    stiffness: 0.05
+});
+
+World.add(engine.world, [topWall, rightWall, bottomWall, leftWall, ball, leftHoop, rightHoop, bottomHoop, rock, elastic]);
 
 Engine.run(engine);
 Render.run(render);
@@ -79,4 +88,25 @@ Events.on(engine, 'collisionStart', e => {
                 console.log('scorred!');
             }
     });
+});    
+
+var mouse = Mouse.create(render.canvas),
+mouseConstraint = MouseConstraint.create(engine, {
+    mouse: mouse,
+    constraint: {
+        stiffness: 0.2,
+        render: {
+            visible: true
+        }
+    }
+});
+World.add(engine.world, mouseConstraint);
+
+Events.on(engine, 'afterUpdate', function() {
+    console.log(mouseConstraint.mouse.button)
+    if (mouseConstraint.mouse.button === -1 && (rock.position.x > 190 || rock.position.y < 430)) {
+        rock = Bodies.polygon(170, 450, 7, 20, rockOptions);
+        World.add(engine.world, rock);
+        elastic.bodyB = rock;
+    }
 });
