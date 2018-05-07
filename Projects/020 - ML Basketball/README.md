@@ -1,3 +1,9 @@
+## Description
+Generating random balls which will learn how to set the appropiate force needed to get into the hoop.
+
+## Link
+You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/xjPELJ)
+
 ## Done
 - [x] create Ball
 - [x] add physics to the Ball
@@ -10,7 +16,12 @@
 - [x] add nn
 - [x] create generations of balls
 - [x] add slider for faster learning
+- [x] change it to work with Matter.js for better physics engine
 
 ## To do
-- [ ] change it to work with Matter.js for better physics engine?
 - [ ] improve fitness function
+
+## Credits
+- [FontAwesome v4](https://fontawesome.com/)
+- Physics built with [Matter.js](http://brm.io/matter-js/)
+- Matrix & NN libraries from [TheCodingTrain](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
