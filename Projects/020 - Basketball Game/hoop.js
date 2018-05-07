@@ -1,34 +1,49 @@
-const HOOP_SIZE = 90;
-const INSIDE_HOOP_OFFSET = 25;
+// // These are taken from script.js
+// // const { Body, Bodies, World } = Matter;
+const HOOP_HEIGHT = 60;
+const HOOP_WIDTH = 80;
+const HOOP_SIZE = 10;
 
 class Hoop {
-    constructor(x, y) {
-        const dot1 = createVector(x - HOOP_SIZE / 2, y);
-        const dot2 = createVector(x - HOOP_SIZE / 2 + 10, y + 25);
-        const dot3 = createVector(x, y + 40);
-        const dot4 = createVector(x + HOOP_SIZE / 2 - 10, y + 25);
-        const dot5 = createVector(x + HOOP_SIZE / 2, y);
-        this.dots = [dot1, dot2, dot3, dot4, dot5];
-        this.insideHoopPosition = createVector(x, y + INSIDE_HOOP_OFFSET);
-        this.insideHoopSize = 10;
-        this.size = 4;
+    constructor(x, y, world) {
+        this.x = x;
+        this.y = y;
+        const hoopOptions = {    
+            isStatic: true,
+            render: {
+                fillStyle: '#ffff00',
+            }
+        };
+
+        const targetOptions = {
+            isSensor: true,
+            isStatic: true,
+            render: {
+                fillStyle: '#ff00ff'
+            }
+        };
+
+        this.leftHoop = Bodies.rectangle(this.x - HOOP_WIDTH / 2, this.y, HOOP_SIZE, HOOP_HEIGHT, hoopOptions);
+        this.rightHoop = Bodies.rectangle(this.x + HOOP_WIDTH / 2, this.y, HOOP_SIZE, HOOP_HEIGHT, hoopOptions);
+        this.bottomHoop = Bodies.rectangle(this.x, this.y + HOOP_HEIGHT / 2, HOOP_WIDTH, HOOP_SIZE, hoopOptions);
+        this.target = Bodies.circle(this.x, this.y + HOOP_SIZE, HOOP_SIZE, targetOptions);
+        this.target.label = 'target';
+
+        World.add(world, [this.target, this.leftHoop, this.rightHoop, this.bottomHoop]);
     }
 
-    draw() {
-        // Draw the dots / the hoop borders
-        stroke(0);
-        strokeWeight(2);
-        noFill();
-        beginShape();
-        this.dots.forEach(dot => {
-            vertex(dot.x, dot.y);
-            ellipse(dot.x, dot.y, this.size * 2);
-        })
-        endShape();
+    setPosition(pos) {
+        Body.setPosition(this.leftHoop, pos);
+        Body.setPosition(this.rightHoop, pos);
+        Body.setPosition(this.bottomHoop, pos);
+        Body.setPosition(this.target, pos);
+    }
 
-        // insideHoop
-        noStroke();
-        fill(255, 0, 255);
-        ellipse(this.insideHoopPosition.x, this.insideHoopPosition.y, this.insideHoopSize * 2);
+    getTarget() {
+        return this.target;
+    }
+
+    removeFromWorld(world) {
+        World.remove(world, [this.target, this.leftHoop, this.rightHoop, this.bottomHoop]);
     }
 }

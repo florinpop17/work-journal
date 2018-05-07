@@ -7,15 +7,22 @@
 
 body {
 	align-items: center;
-	color: #222;
+	color: #fff;
 	display: flex;
 	flex-direction: column;
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	min-height: 100vh;
+	margin-bottom: 60px;
     justify-content: center;
     background: #3C3B3F;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body > p {
+	margin: 10px 0;
+	max-width: 500px;
+	text-align: center;
 }
 
 footer {

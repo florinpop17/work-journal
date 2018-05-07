@@ -8,21 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>    
+<body>
+    <h1>ML Basketball</h1>
+    <p>Generating random balls which will learn how to set the appropiate force needed to get into the hoop.</p>
     <footer>
         <p>
             Created with <i class="fa fa-heart"></i> by 
             <a href="http://florin-pop.com">Florin Pop</a>
             - More on
             <a target="_blank" href="https://github.com/florinpop17/work-journal">Github</a>
+            - Physics built with
+            <a target="_blank" href="http://brm.io/matter-js/">Matterjs</a>
+            - ML build with
+            <a target="_blank" href="https://github.com/CodingTrain/Toy-Neural-Network-JS">Toy NN</a>
         </p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
     <script src="matrix.js"></script>
     <script src="nn.js"></script>
+    <script>
+        const { Bodies, Body, Engine, Events, Render, World } = Matter;
+    </script>
     <script src="ball.js"></script>
     <script src="hoop.js"></script>
     <script src="script.js"></script>
