@@ -23,6 +23,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 017 | Sliding Pizzle | [Codepen](https://codepen.io/FlorinPop17/full/yjLZga) - [Github](./Projects/017%20-%20Sliding%20Puzzle) |
 | 018 | Image Password Strength | [Codepen](https://codepen.io/FlorinPop17/full/odbydZ) - [Github](./Projects/018%20-%20Image%20Password%20Strength) |
 | 019 |  ML Flappy Bird | [Codepen](https://codepen.io/FlorinPop17/full/OZXrJG) - [Github](./Projects/019%20-%20ML%20Flappy%20Bird) |
+| 020 |  ML Basketball | [Codepen](https://codepen.io/FlorinPop17/full/xjPELJ) - [Github](./Projects/020%20-%20ML%20Basketball) |
 
 ## Daily Work Journal
 A list with completed/in progress tasks for the corresponding day.
