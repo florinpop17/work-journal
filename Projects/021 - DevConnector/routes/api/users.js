@@ -10,6 +10,7 @@ const router = express.Router();
 
 // Load Input Validation
 const validateReqisterInput = require('../../validation/register');
+const validateLoginInput = require('../../validation/login');
 
 // Load User model
 const User = require('../../models/User');
@@ -71,13 +72,20 @@ router.post('/register', (req, res) => {
 // @access: Public
 router.post('/login', (req, res) => {
     const { email, password } = req.body;
+    const { errors, isValid } = validateLoginInput(req.body);
+
+    // Check validation
+    if(!isValid) {
+        return res.status(400).json(errors);
+    }
 
     // Find the user by email
     User.findOne({ email })
         .then(user => {
             // Check for user
             if(!user) {
-                return res.status(404).json({ email: 'User not found!' });
+                errors.email = 'Email not found!'
+                return res.status(404).json(errors);
             }
 
             // Check password
@@ -99,7 +107,8 @@ router.post('/login', (req, res) => {
                             });
                         });
                     } else {
-                        return res.status(400).json({ password: 'Incorrect password!' });
+                        errors.password = 'Incorrect password!';
+                        return res.status(400).json(errors);
                     }
                 });
         });
