@@ -8,6 +8,9 @@ const keys = require('../../config/keys');
 
 const router = express.Router();
 
+// Load Input Validation
+const validateReqisterInput = require('../../validation/register');
+
 // Load User model
 const User = require('../../models/User');
 
@@ -21,6 +24,12 @@ router.get('/test', (req, res) => res.json({ msg: 'Users is working!' }));
 // @access: Public
 router.post('/register', (req, res) => {
     const { email } = req.body;
+    const { errors, isValid } = validateReqisterInput(req.body);
+
+    // Check validation
+    if(!isValid) {
+        return res.status(400).json(errors);
+    }
 
     User.findOne({ email })
         .then(user => {
