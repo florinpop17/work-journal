@@ -1,3 +1,5 @@
+![Image Password Strength](./example.gif)
+
 ## Description
 A pixelated image generated based on the password strength using HTML5 canvas with p5js.
 
