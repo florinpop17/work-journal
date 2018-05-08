@@ -1,3 +1,5 @@
+![ML Basketball](./example.gif)
+
 ## Description
 Generating random balls which will learn how to set the appropiate force needed to get into the hoop.
 
