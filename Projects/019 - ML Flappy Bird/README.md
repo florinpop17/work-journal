@@ -1,3 +1,5 @@
+![ML Flappy Bird](./example.gif)
+
 ## Description
 Flappy bird - the bird is learning to fly between the pipes by using Machine Learning and Genetic Algorithm to train it.
 
