@@ -6,6 +6,8 @@ const router = express.Router();
 
 // Load Input Validation
 const validateProfileInput = require('../../validation/profile');
+const validateExperienceInput = require('../../validation/experience');
+const validateEducationInput = require('../../validation/education');
 
 // Load Profile model
 const Profile = require('../../models/Profile');
@@ -166,6 +168,54 @@ router.post('/', passport.authenticate('jwt', { session: false }), (req, res) =>
                         new Profile(profileFields).save().then(profile => res.json(profile));
                     });
             }
+        });
+});
+
+// @route:  POST api/profile/experience
+// @desc:   Add experience to profile
+// @access: Private
+router.post('/experience', passport.authenticate('jwt', { session: false }), (req, res) => {
+    const { id } = req.user;
+    const { errors, isValid } = validateExperienceInput(req.body);
+
+    // Check validation
+    if(!isValid) {
+        return res.status(400).json(errors);
+    }
+    
+    Profile.findOne({ user: id })
+        .then(profile => {
+            const { title, company, location, from, to, current, description } = req.body;
+            const newExp = { title, company, location, from, to, current, description };
+
+            // Add to experience array
+            profile.experience.unshift(newExp);
+
+            profile.save().then(profile => res.json(profile));
+        });
+});
+
+// @route:  POST api/profile/education
+// @desc:   Add education to profile
+// @access: Private
+router.post('/education', passport.authenticate('jwt', { session: false }), (req, res) => {
+    const { id } = req.user;
+    const { errors, isValid } = validateEducationInput(req.body);
+
+    // Check validation
+    if(!isValid) {
+        return res.status(400).json(errors);
+    }
+    
+    Profile.findOne({ user: id })
+        .then(profile => {
+            const { school, degree, fieldofstudy, from, to, current, description } = req.body;
+            const newEdu = { school, degree, fieldofstudy, from, to, current, description };
+
+            // Add to education array
+            profile.education.unshift(newEdu);
+
+            profile.save().then(profile => res.json(profile));
         });
 });
 
