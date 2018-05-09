@@ -139,4 +139,59 @@ router.post('/unlike/:post_id', passport.authenticate('jwt', { session: false })
         });
 });
 
+// @route:  POST api/posts/comment/:post_id
+// @desc:   Add comment to post
+// @access: Private
+router.post('/comment/:post_id', passport.authenticate('jwt', { session: false }), (req, res) => {
+    const { errors, isValid } = validatePostInput(req.body);
+
+    // Check validation
+    if(!isValid) {
+        return res.status(400).json(errors);
+    }
+
+    const { post_id } = req.params;
+    Post.findById(post_id)
+        .then(post => {
+            const { text, name, avatar } = req.body;
+            const { id } = req.user;
+            const newComment = { text, name, avatar, user: id };
+
+            // Add to the comments array
+            post.comments.unshift(newComment);
+
+            // Save
+            post.save().then(post => res.json(post));
+        })
+        .catch(e => res.status(404).json(e));
+});
+
+// @route:  DELETE api/posts/comment/:post_id/:comment_id
+// @desc:   Delete comment from post
+// @access: Private
+router.delete('/comment/:post_id/:comment_id', passport.authenticate('jwt', { session: false }), (req, res) => {
+    const { post_id, comment_id } = req.params;
+    Post.findById(post_id)
+        .then(post => {
+            // Check if the comment exists
+            if(!post.comments.find(comment => comment._id.toString() === comment_id)) {
+                return res.status(404).json({ commentnotexists: 'Comment does not exist!' });
+            }
+
+            // Get remove index
+            const removeIndex = post.comments.map(item => item._id.toString()).indexOf(comment_id);
+            // If the index was found
+            if(removeIndex > -1) {
+                // Splice out of array
+                post.comments.splice(removeIndex, 1);
+
+                // Resave it
+                post.save().then(post => res.json(post));
+            } else {
+                return res.status(404).json({ error: 'No comment found!' });
+            }
+        })
+        .catch(e => res.status(404).json(e));
+});
+
 module.exports = router;
