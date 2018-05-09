@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 
 class Register extends Component {
-    constructor() {
-        super();
-        this.state = {
-            name: '',
-            email: '',
-            password: '',
-            password2: '',
-            errors: {}
-        };
-    }
+    state = {
+        name: '',
+        email: '',
+        password: '',
+        password2: '',
+        errors: {}
+    };
 
     onChange = e => {
         const { name, value } = e.target;
@@ -26,6 +23,8 @@ class Register extends Component {
     };
 
     render() {
+        const { name, email, password, password2 } = this.state;
+
         return (
             <div className="register">
                 <div className="container">
@@ -42,7 +41,7 @@ class Register extends Component {
                                         className="form-control form-control-lg"
                                         placeholder="Name"
                                         name="name"
-                                        value={this.state.name}
+                                        value={name}
                                         onChange={this.onChange}
                                     />
                                 </div>
@@ -52,7 +51,7 @@ class Register extends Component {
                                         className="form-control form-control-lg"
                                         placeholder="Email Address"
                                         name="email"
-                                        value={this.state.email}
+                                        value={email}
                                         onChange={this.onChange}
                                     />
                                     <small className="form-text text-muted">
@@ -66,7 +65,7 @@ class Register extends Component {
                                         className="form-control form-control-lg"
                                         placeholder="Password"
                                         name="password"
-                                        value={this.state.password}
+                                        value={password}
                                         onChange={this.onChange}
                                     />
                                 </div>
@@ -76,7 +75,7 @@ class Register extends Component {
                                         className="form-control form-control-lg"
                                         placeholder="Confirm Password"
                                         name="password2"
-                                        value={this.state.password2}
+                                        value={password2}
                                         onChange={this.onChange}
                                     />
                                 </div>
