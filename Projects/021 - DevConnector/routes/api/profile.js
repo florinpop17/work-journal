@@ -219,6 +219,20 @@ router.post('/education', passport.authenticate('jwt', { session: false }), (req
         });
 });
 
+// @route:  DELETE api/profile
+// @desc:   Delete user and profile
+// @access: Private
+router.delete('/', passport.authenticate('jwt', { session: false }), (req, res) => {
+    const { id } = req.user;
+    Profile.findOneAndRemove({ user: id })
+        .then(() => {
+            User.findOneAndRemove({ _id: id })
+                .then(() => {
+                    res.json({ success: true });
+                });
+        });
+});
+
 // @route:  DELETE api/experience/:exp_id
 // @desc:   Delete experience from profile
 // @access: Private
