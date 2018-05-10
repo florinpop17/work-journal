@@ -24,7 +24,7 @@ export const loginUser = userData => dispatch => {
         .then(res => {
             // Save to localStorage
             const { token } = res.data;
-            localStorage.setItem('jtwToken', token);
+            localStorage.setItem('jwtToken', token);
 
             // Set token to Auth header
             setAuthToken(token);
