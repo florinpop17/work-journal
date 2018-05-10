@@ -76,6 +76,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 044 | [Day 44. 06.05.2018](./Daily%20Work%20Journal/Day%20044.%2006.05.2018.md) |
 | 045 | [Day 45. 07.05.2018](./Daily%20Work%20Journal/Day%20045.%2007.05.2018.md) |
 | 046 | [Day 46. 08.05.2018](./Daily%20Work%20Journal/Day%20046.%2008.05.2018.md) |
+| 047 | [Day 47. 09.05.2018](./Daily%20Work%20Journal/Day%20047.%2009.05.2018.md) |
 
 ## To-do
 1. Find and write a list of small projects to build
