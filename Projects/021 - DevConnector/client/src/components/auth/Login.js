@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import classnames from 'classnames';
+
+import TextFieldGroup from '../common/TextFieldGroup';
 import { loginUser } from '../../actions/authActions';
 
 class Login extends Component {
@@ -57,38 +58,22 @@ class Login extends Component {
                                 Sign in to your DevConnector account
                             </p>
                             <form onSubmit={this.onSubmit}>
-                                <div className="form-group">
-                                    <input
-                                        type="email"
-                                        className={classnames(
-                                            'form-control form-control-lg',
-                                            { 'is-invalid': errors.email }
-                                        )}
-                                        placeholder="Email Address"
-                                        name="email"
-                                        value={email}
-                                        onChange={this.onChange}
-                                    />
-                                    <div className="invalid-feedback">
-                                        {errors.email}
-                                    </div>
-                                </div>
-                                <div className="form-group">
-                                    <input
-                                        type="password"
-                                        className={classnames(
-                                            'form-control form-control-lg',
-                                            { 'is-invalid': errors.password }
-                                        )}
-                                        placeholder="Password"
-                                        name="password"
-                                        value={password}
-                                        onChange={this.onChange}
-                                    />
-                                    <div className="invalid-feedback">
-                                        {errors.password}
-                                    </div>
-                                </div>
+                                <TextFieldGroup
+                                    name="email"
+                                    type="email"
+                                    placeholder="Email Address"
+                                    value={email}
+                                    onChange={this.onChange}
+                                    error={errors.email}
+                                />
+                                <TextFieldGroup
+                                    name="password"
+                                    type="password"
+                                    placeholder="Password"
+                                    value={password}
+                                    onChange={this.onChange}
+                                    error={errors.password}
+                                />
                                 <input
                                     type="submit"
                                     className="btn btn-info btn-block mt-4"
