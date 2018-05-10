@@ -84,7 +84,7 @@ class Register extends Component {
                                     error={errors.password}
                                 />
                                 <TextFieldGroup
-                                    name="password"
+                                    name="password2"
                                     type="password"
                                     placeholder="Password"
                                     value={password2}

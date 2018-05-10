@@ -1,26 +1,28 @@
 {
-  "name": "devconnector",
-  "version": "1.0.0",
-  "description": "Social network for developers",
-  "main": "server.js",
-  "scripts": {
-    "client-install": "npm install --prefix client",
-    "start": "nodemon server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run start\" \"npm run client\""
-  },
-  "author": "Florin Pop",
-  "license": "MIT",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.2",
-    "concurrently": "^3.5.1",
-    "express": "^4.16.3",
-    "gravatar": "^1.6.0",
-    "jsonwebtoken": "^8.2.1",
-    "mongoose": "^5.0.17",
-    "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0",
-    "validator": "^10.1.0"
-  }
+    "name": "devconnector",
+    "version": "1.0.0",
+    "description": "Social network for developers",
+    "main": "server.js",
+    "scripts": {
+        "client-install": "npm install --prefix client",
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "author": "Florin Pop",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.2",
+        "concurrently": "^3.5.1",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "gravatar": "^1.6.0",
+        "jsonwebtoken": "^8.2.1",
+        "mongoose": "^5.0.17",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "validator": "^10.1.0"
+    }
 }
