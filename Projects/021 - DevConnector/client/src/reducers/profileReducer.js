@@ -20,7 +20,7 @@ export default function(state = initialState, action) {
         case GET_PROFILE:
             return {
                 ...state,
-                payload: action.payload,
+                profile: action.payload,
                 loading: false
             };
         case CLEAR_CURRENT_PROFILE:
