@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
+import { createProfile } from '../../actions/profileActions';
 
 import TextFieldGroup from '../common/TextFieldGroup';
 import TextAreaFieldGroup from '../common/TextAreaFieldGroup';
@@ -26,8 +29,49 @@ class CreateProfile extends Component {
         errors: {}
     };
 
+    componentWillReceiveProps = nextProps => {
+        if (nextProps.errors) {
+            this.setState({
+                errors: nextProps.errors
+            });
+        }
+    };
+
     onSubmit = e => {
         e.preventDefault();
+        const {
+            handle,
+            status,
+            company,
+            website,
+            location,
+            skills,
+            githubusername,
+            bio,
+            twitter,
+            facebook,
+            linkedin,
+            youtube,
+            instagram
+        } = this.state;
+
+        const profileData = {
+            handle,
+            status,
+            company,
+            website,
+            location,
+            skills,
+            githubusername,
+            bio,
+            twitter,
+            facebook,
+            linkedin,
+            youtube,
+            instagram
+        };
+
+        this.props.createProfile(profileData, this.props.history);
     };
 
     onChange = e => {
@@ -46,13 +90,18 @@ class CreateProfile extends Component {
             skills,
             githubusername,
             bio,
-            errors
+            errors,
+            twitter,
+            facebook,
+            linkedin,
+            youtube,
+            instagram
         } = this.state;
 
         // Select options for status
         const options = [
             {
-                label: 'Select Professional Status',
+                label: '* Select Professional Status',
                 value: 0
             },
             {
@@ -91,7 +140,7 @@ class CreateProfile extends Component {
                         placeholder="Twitter Profile URL"
                         name="twitter"
                         icon="fab fa-twitter"
-                        value={this.state.twitter}
+                        value={twitter}
                         onChange={this.onChange}
                         error={errors.twitter}
                     />
@@ -101,7 +150,7 @@ class CreateProfile extends Component {
                         placeholder="Facebook Page URL"
                         name="facebook"
                         icon="fab fa-facebook"
-                        value={this.state.facebook}
+                        value={facebook}
                         onChange={this.onChange}
                         error={errors.facebook}
                     />
@@ -111,7 +160,7 @@ class CreateProfile extends Component {
                         placeholder="Linkedin Profile URL"
                         name="linkedin"
                         icon="fab fa-linkedin"
-                        value={this.state.linkedin}
+                        value={linkedin}
                         onChange={this.onChange}
                         error={errors.linkedin}
                     />
@@ -121,7 +170,7 @@ class CreateProfile extends Component {
                         placeholder="YouTube Channel URL"
                         name="youtube"
                         icon="fab fa-youtube"
-                        value={this.state.youtube}
+                        value={youtube}
                         onChange={this.onChange}
                         error={errors.youtube}
                     />
@@ -131,7 +180,7 @@ class CreateProfile extends Component {
                         placeholder="Instagram Page URL"
                         name="instagram"
                         icon="fab fa-instagram"
-                        value={this.state.instagram}
+                        value={instagram}
                         onChange={this.onChange}
                         error={errors.instagram}
                     />
@@ -229,6 +278,7 @@ class CreateProfile extends Component {
                                 />
                                 <div className="mb-3">
                                     <button
+                                        type="button"
                                         onClick={() => {
                                             this.setState(prevState => ({
                                                 displaySocialInputs: !prevState.displaySocialInputs
@@ -265,4 +315,6 @@ const mapStateToProps = state => ({
     errors: state.errors
 });
 
-export default connect(mapStateToProps)(CreateProfile);
+export default connect(mapStateToProps, { createProfile })(
+    withRouter(CreateProfile)
+);
