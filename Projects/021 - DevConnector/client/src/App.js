@@ -26,6 +26,7 @@ import AddEducation from './components/add-credentials/AddEducation';
 import PrivateRoute from './components/common/PrivateRoute';
 
 import Profiles from './components/profile/Profiles';
+import Profile from './components/profile/Profile';
 
 import './App.css';
 
@@ -76,6 +77,11 @@ class App extends Component {
                                 exact
                                 path="/profiles"
                                 component={Profiles}
+                            />
+                            <Route
+                                exact
+                                path="/profile/:handle"
+                                component={Profile}
                             />
                             <Switch>
                                 <PrivateRoute
