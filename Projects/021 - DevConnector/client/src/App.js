@@ -25,6 +25,8 @@ import AddEducation from './components/add-credentials/AddEducation';
 
 import PrivateRoute from './components/common/PrivateRoute';
 
+import Profiles from './components/profile/Profiles';
+
 import './App.css';
 
 // Check for token
@@ -70,6 +72,11 @@ class App extends Component {
                                 component={Register}
                             />
                             <Route exact path="/login" component={Login} />
+                            <Route
+                                exact
+                                path="/profiles"
+                                component={Profiles}
+                            />
                             <Switch>
                                 <PrivateRoute
                                     exact
