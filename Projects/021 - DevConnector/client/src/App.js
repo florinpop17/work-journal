@@ -31,6 +31,7 @@ import Profile from './components/profile/Profile';
 import NotFound from './components/not-found/NotFound';
 
 import Posts from './components/posts/Posts';
+import Post from './components/posts/Post';
 
 import './App.css';
 
@@ -70,10 +71,7 @@ class App extends Component {
                     <div className="App">
                         <Navbar />
                         <Route exact path="/" component={Landing} />
-                        <div
-                            className="container"
-                            style={{ minHeight: '80vh' }}
-                        >
+                        <div className="container">
                             <Route
                                 exact
                                 path="/register"
@@ -130,6 +128,13 @@ class App extends Component {
                                     exact
                                     path="/feed"
                                     component={Posts}
+                                />
+                            </Switch>
+                            <Switch>
+                                <PrivateRoute
+                                    exact
+                                    path="/post/:id"
+                                    component={Post}
                                 />
                             </Switch>
                             <Route
