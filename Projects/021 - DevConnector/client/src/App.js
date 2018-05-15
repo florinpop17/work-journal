@@ -70,7 +70,10 @@ class App extends Component {
                     <div className="App">
                         <Navbar />
                         <Route exact path="/" component={Landing} />
-                        <div className="container">
+                        <div
+                            className="container"
+                            style={{ minHeight: '80vh' }}
+                        >
                             <Route
                                 exact
                                 path="/register"

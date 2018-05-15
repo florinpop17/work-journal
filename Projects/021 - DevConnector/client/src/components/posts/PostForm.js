@@ -11,8 +11,25 @@ class PostForm extends Component {
         errors: []
     };
 
+    componentWillReceiveProps = newProps => {
+        const { errors } = newProps;
+        if (errors) {
+            this.setState({ errors });
+        }
+    };
+
     onSubmit = e => {
         e.preventDefault();
+        const { text } = this.state;
+        const { user } = this.props.auth;
+        const { name, avatar } = user;
+
+        const newPost = { text, name, avatar };
+
+        this.props.addPost(newPost);
+
+        // Clear textfield
+        this.setState({ text: '' });
     };
 
     onChange = e => {
@@ -38,7 +55,7 @@ class PostForm extends Component {
                                     name="text"
                                     value={text}
                                     onChange={this.onChange}
-                                    errors={errors.text}
+                                    error={errors.text}
                                 />
                             </div>
                             <button type="submit" className="btn btn-dark">
@@ -53,7 +70,9 @@ class PostForm extends Component {
 }
 
 PostForm.propTypes = {
-    addPost: PropTypes.func.isRequired
+    addPost: PropTypes.func.isRequired,
+    auth: PropTypes.object.isRequired,
+    errors: PropTypes.object.isRequired
 };
 
 const mapStateToProps = state => ({
