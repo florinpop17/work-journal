@@ -84,6 +84,7 @@ A list with completed/in progress tasks for the corresponding day.
 | 049 | [Day 49. 11.05.2018](./Daily%20Work%20Journal/Day%20049.%2011.05.2018.md) |
 | 050 | [Day 50. 14.05.2018](./Daily%20Work%20Journal/Day%20050.%2014.05.2018.md) |
 | 051 | [Day 51. 15.05.2018](./Daily%20Work%20Journal/Day%20051.%2015.05.2018.md) |
+| 052 | [Day 52. 16.05.2018](./Daily%20Work%20Journal/Day%20052.%2016.05.2018.md) |
 
 ## To-do
 
