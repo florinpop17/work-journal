@@ -28,6 +28,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 020 | ML Basketball                     | [Codepen](https://codepen.io/FlorinPop17/full/xjPELJ) - [Github](./Projects/020%20-%20ML%20Basketball)                           |
 | 021 | DevConnector                      | [Github](./Projects/021%20-%20DevConnector)                                                                                      |
 | 022 | ActiveBox                         | [Codepen](https://codepen.io/FlorinPop17/full/Wyeyxz) - [Github](./Projects/022%20-%20ActiveBox)                                 |
+| 023 | Testimonial Box                   | [Codepen](https://codepen.io/FlorinPop17/full/QYzyWx) - [Github](./Projects/023%20-%20Testimonial%20Box)                         |
 
 ## To-do
 
