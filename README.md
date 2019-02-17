@@ -29,75 +29,11 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 021 | DevConnector                      | [Github](./Projects/021%20-%20DevConnector)                                                                                      |
 | 022 | ActiveBox                         | [Codepen](https://codepen.io/FlorinPop17/full/Wyeyxz) - [Github](./Projects/022%20-%20ActiveBox)                                 |
 
-## Daily Work Journal
-
-A list with completed/in progress tasks for the corresponding day.
-
-| Day | Link                                                                      |
-| --- | ------------------------------------------------------------------------- |
-| 001 | [Day 1. 12.03.2018](./Daily%20Work%20Journal/Day%20001.%2012.03.2018.md)  |
-| 002 | [Day 2. 13.03.2018](./Daily%20Work%20Journal/Day%20002.%2013.03.2018.md)  |
-| 003 | [Day 3. 14.03.2018](./Daily%20Work%20Journal/Day%20003.%2014.03.2018.md)  |
-| 004 | [Day 4. 15.03.2018](./Daily%20Work%20Journal/Day%20004.%2015.03.2018.md)  |
-| 005 | [Day 5. 16.03.2018](./Daily%20Work%20Journal/Day%20005.%2016.03.2018.md)  |
-| 006 | [Day 6. 18.03.2018](./Daily%20Work%20Journal/Day%20006.%2018.03.2018.md)  |
-| 007 | [Day 7. 19.03.2018](./Daily%20Work%20Journal/Day%20007.%2019.03.2018.md)  |
-| 008 | [Day 8. 20.03.2018](./Daily%20Work%20Journal/Day%20008.%2020.03.2018.md)  |
-| 009 | [Day 9. 22.03.2018](./Daily%20Work%20Journal/Day%20009.%2022.03.2018.md)  |
-| 010 | [Day 10. 23.03.2018](./Daily%20Work%20Journal/Day%20010.%2023.03.2018.md) |
-| 011 | [Day 11. 24.03.2018](./Daily%20Work%20Journal/Day%20011.%2024.03.2018.md) |
-| 012 | [Day 12. 25.03.2018](./Daily%20Work%20Journal/Day%20012.%2025.03.2018.md) |
-| 013 | [Day 13. 26.03.2018](./Daily%20Work%20Journal/Day%20013.%2026.03.2018.md) |
-| 014 | [Day 14. 27.03.2018](./Daily%20Work%20Journal/Day%20014.%2027.03.2018.md) |
-| 015 | [Day 15. 29.03.2018](./Daily%20Work%20Journal/Day%20015.%2029.03.2018.md) |
-| 016 | [Day 16. 30.03.2018](./Daily%20Work%20Journal/Day%20016.%2030.03.2018.md) |
-| 017 | [Day 17. 01.04.2018](./Daily%20Work%20Journal/Day%20017.%2001.04.2018.md) |
-| 018 | [Day 18. 02.04.2018](./Daily%20Work%20Journal/Day%20018.%2002.04.2018.md) |
-| 019 | [Day 19. 03.04.2018](./Daily%20Work%20Journal/Day%20019.%2003.04.2018.md) |
-| 020 | [Day 20. 04.04.2018](./Daily%20Work%20Journal/Day%20020.%2004.04.2018.md) |
-| 021 | [Day 21. 05.04.2018](./Daily%20Work%20Journal/Day%20021.%2005.04.2018.md) |
-| 022 | [Day 22. 08.04.2018](./Daily%20Work%20Journal/Day%20022.%2008.04.2018.md) |
-| 023 | [Day 23. 09.04.2018](./Daily%20Work%20Journal/Day%20023.%2009.04.2018.md) |
-| 024 | [Day 24. 10.04.2018](./Daily%20Work%20Journal/Day%20024.%2010.04.2018.md) |
-| 025 | [Day 25. 11.04.2018](./Daily%20Work%20Journal/Day%20025.%2011.04.2018.md) |
-| 026 | [Day 26. 12.04.2018](./Daily%20Work%20Journal/Day%20026.%2012.04.2018.md) |
-| 027 | [Day 27. 13.04.2018](./Daily%20Work%20Journal/Day%20027.%2013.04.2018.md) |
-| 028 | [Day 28. 15.04.2018](./Daily%20Work%20Journal/Day%20028.%2015.04.2018.md) |
-| 029 | [Day 29. 16.04.2018](./Daily%20Work%20Journal/Day%20029.%2016.04.2018.md) |
-| 030 | [Day 30. 17.04.2018](./Daily%20Work%20Journal/Day%20030.%2017.04.2018.md) |
-| 031 | [Day 31. 18.04.2018](./Daily%20Work%20Journal/Day%20031.%2018.04.2018.md) |
-| 032 | [Day 32. 19.04.2018](./Daily%20Work%20Journal/Day%20032.%2019.04.2018.md) |
-| 033 | [Day 33. 20.04.2018](./Daily%20Work%20Journal/Day%20033.%2020.04.2018.md) |
-| 034 | [Day 34. 22.04.2018](./Daily%20Work%20Journal/Day%20034.%2022.04.2018.md) |
-| 035 | [Day 35. 23.04.2018](./Daily%20Work%20Journal/Day%20035.%2023.04.2018.md) |
-| 036 | [Day 36. 24.04.2018](./Daily%20Work%20Journal/Day%20036.%2024.04.2018.md) |
-| 037 | [Day 37. 25.04.2018](./Daily%20Work%20Journal/Day%20037.%2025.04.2018.md) |
-| 038 | [Day 38. 26.04.2018](./Daily%20Work%20Journal/Day%20038.%2026.04.2018.md) |
-| 039 | [Day 39. 30.04.2018](./Daily%20Work%20Journal/Day%20039.%2030.04.2018.md) |
-| 040 | [Day 40. 01.05.2018](./Daily%20Work%20Journal/Day%20040.%2001.05.2018.md) |
-| 041 | [Day 41. 02.05.2018](./Daily%20Work%20Journal/Day%20041.%2002.05.2018.md) |
-| 042 | [Day 42. 03.05.2018](./Daily%20Work%20Journal/Day%20042.%2003.05.2018.md) |
-| 043 | [Day 43. 04.05.2018](./Daily%20Work%20Journal/Day%20043.%2004.05.2018.md) |
-| 044 | [Day 44. 06.05.2018](./Daily%20Work%20Journal/Day%20044.%2006.05.2018.md) |
-| 045 | [Day 45. 07.05.2018](./Daily%20Work%20Journal/Day%20045.%2007.05.2018.md) |
-| 046 | [Day 46. 08.05.2018](./Daily%20Work%20Journal/Day%20046.%2008.05.2018.md) |
-| 047 | [Day 47. 09.05.2018](./Daily%20Work%20Journal/Day%20047.%2009.05.2018.md) |
-| 048 | [Day 48. 10.05.2018](./Daily%20Work%20Journal/Day%20048.%2010.05.2018.md) |
-| 049 | [Day 49. 11.05.2018](./Daily%20Work%20Journal/Day%20049.%2011.05.2018.md) |
-| 050 | [Day 50. 14.05.2018](./Daily%20Work%20Journal/Day%20050.%2014.05.2018.md) |
-| 051 | [Day 51. 15.05.2018](./Daily%20Work%20Journal/Day%20051.%2015.05.2018.md) |
-| 052 | [Day 52. 16.05.2018](./Daily%20Work%20Journal/Day%20052.%2016.05.2018.md) |
-| 053 | [Day 53. 17.05.2018](./Daily%20Work%20Journal/Day%20053.%2017.05.2018.md) |
-| 054 | [Day 54. 18.05.2018](./Daily%20Work%20Journal/Day%20054.%2018.05.2018.md) |
-| 055 | [Day 55. 21.05.2018](./Daily%20Work%20Journal/Day%20055.%2021.05.2018.md) |
-| 056 | [Day 56. 22.05.2018](./Daily%20Work%20Journal/Day%20056.%2022.05.2018.md) |
-| 057 | [Day 57. 28.05.2018](./Daily%20Work%20Journal/Day%20057.%2028.05.2018.md) |
-
 ## To-do
 
 1.  Find and write a list of small projects to build
 2.  Create daily [Codepen](https://codepen.io/florinpop17) projects
-3.  Write blog posts (& rewrite existing blog website using Wordpress???)
+3.  Write blog posts
 
 ## Learning plans:
 
