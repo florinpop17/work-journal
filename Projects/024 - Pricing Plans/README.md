@@ -18,3 +18,4 @@ You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/Wm
 
 -   Icons from [FontAwesome](https://fontawesome.com/?from=io)
 -   Images from [Unsplash](https://unsplash.com)
+-   Design inspired from [Creative Tim](https://creative-tim.com)
