@@ -30,7 +30,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 022 | ActiveBox                         | [Codepen](https://codepen.io/FlorinPop17/full/Wyeyxz) - [Github](./Projects/022%20-%20ActiveBox)                                 |
 | 023 | Testimonial Box                   | [Codepen](https://codepen.io/FlorinPop17/full/QYzyWx) - [Github](./Projects/023%20-%20Testimonial%20Box)                         |
 | 024 | Pricing Plans                     | [Codepen](https://codepen.io/FlorinPop17/full/WmNoJx) - [Github](./Projects/024%20-%20Pricing%20Plans)                           |
-| 025 | Movie Search                      | [Codepen](https://codepen.io/FlorinPop17/full/rRaEYv) - [Github](./Projects/024%20-%20Movie%20Search)                            |
+| 025 | Movie Search                      | [Codepen](https://codepen.io/FlorinPop17/full/rRaEYv) - [Github](./Projects/025%20-%20Movie%20Search)                            |
 
 ## To-do
 
