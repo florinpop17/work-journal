@@ -22,5 +22,7 @@ You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/Wm
 
 ## Credits
 
+-   Built with React
+-   Design inspired from [Dribbble](https://dribbble.com/shots/6028615-Spider-man-Movie)
 -   API from [The Open Movie Database](http://www.omdbapi.com/)
 -   Icons from [FontAwesome](https://fontawesome.com/?from=io)
