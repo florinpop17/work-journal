@@ -8,6 +8,7 @@ Movie Search application - search your favorite movie
 
 -   [ ] Add read more with external link to IMDB
 -   [ ] Solve the clip-path problem for other browsers
+-   [ ] increase tags container width, same as you did for the plot
 -   [ ] Create a movie list
 -   [ ] Add search field
 -   [ ] Add submit handle on button
