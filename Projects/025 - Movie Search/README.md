@@ -9,6 +9,8 @@ Movie Search application - search your favorite movie
 -   [ ] Find a design
 -   [ ] Create a movie list
 -   [ ] Create a movie template design
+-   [ ] Add search field
+-   [ ] Add submit handle on button
 
 ## Done
 
