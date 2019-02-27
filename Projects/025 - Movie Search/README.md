@@ -6,15 +6,18 @@ Movie Search application - search your favorite movie
 
 ## ToDo
 
--   [ ] Find a design
+-   [ ] Add read more with external link to IMDB
+-   [ ] Solve the clip-path problem for other browsers
 -   [ ] Create a movie list
--   [ ] Create a movie template design
 -   [ ] Add search field
 -   [ ] Add submit handle on button
 
 ## Done
 
 -   [x] Add react project in Codepen
+-   [x] Find and use an API for movies
+-   [x] Find a design
+-   [x] Create a movie template design
 
 ## Link
 
