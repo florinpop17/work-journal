@@ -2,16 +2,7 @@
 
 ## Description
 
-Movie Search application - search your favorite movie
-
-## ToDo
-
--   [ ] Add read more with external link to IMDB
--   [ ] Solve the clip-path problem for other browsers
--   [ ] increase tags container width, same as you did for the plot
--   [ ] Create a movie list
--   [ ] Add search field
--   [ ] Add submit handle on button
+Movie Search App - search your favorite movie.
 
 ## Done
 
@@ -19,10 +10,14 @@ Movie Search application - search your favorite movie
 -   [x] Find and use an API for movies
 -   [x] Find a design
 -   [x] Create a movie template design
+-   [x] increase tags container width, same as you did for the plot
+-   [x] Create a movie list
+-   [x] Add search field
+-   [x] Add submit handle on button
 
 ## Link
 
-You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/WmNoJx) and also you can read how I built it in this [article](https://florin-pop.com/blog/).
+You can see the version live on [Codepen](https://codepen.io/FlorinPop17/full/rRaEYv) and also you can read how I built it in this [article](https://florin-pop.com/blog/).
 
 ## Credits
 
