@@ -4,33 +4,34 @@ A personal journal which holds a number of my projects, plans and resources for 
 
 ## Projects
 
-| #   | Name                              | Link                                                                                                                             |
-| --- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| 001 | Art of PI                         | [Codepen](https://codepen.io/FlorinPop17/full/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI)                             |
-| 002 | Steering points in image          | [Codepen](https://codepen.io/FlorinPop17/full/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image)            |
-| 003 | Path following                    | [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb) - [Github](./Projects/003%20-%20Path%20following)                          |
-| 004 | Circle Packing                    | [Codepen](https://codepen.io/FlorinPop17/full/WzGQxp) - [Github](./Projects/004%20-%20Circle%20Packing)                          |
-| 005 | Physics - Steering behaviors      | [Codepen](https://codepen.io/FlorinPop17/full/rdyyjK) - [Github](./Projects/005%20-%20Physics%20-%20Steering%20behaviors)        |
-| 006 | Dotted World Map                  | [Codepen](https://codepen.io/FlorinPop17/full/QmgEBe) - [Github](./Projects/006%20-%20Dotted%20World%20Map)                      |
-| 007 | Jumping Letters                   | [Codepen](https://codepen.io/FlorinPop17/full/XEgpvM) - [Github](./Projects/007%20-%20Jumping%20Letters)                         |
-| 008 | Art of PI 2                       | [Codepen](https://codepen.io/FlorinPop17/full/Ldjqgw) - [Github](./Projects/008%20-%20Art%20of%20PI%202)                         |
-| 009 | IDE Theme Recommendation Using ML | [Codepen](https://codepen.io/FlorinPop17/full/MVPGGy) - [Github](./Projects/009%20-%20IDE%20Theme%20Recommendation%20Using%20ML) |
-| 010 | Full Background Particle System   | [Codepen](https://codepen.io/FlorinPop17/full/geBzZE) - [Github](./Projects/010%20-%20Full%20Background%20Particle%20System)     |
-| 011 | Blogrid                           | [Github](./Projects/011%20-%20Blogrid)                                                                                           |
-| 012 | Double Vertical Slider            | [Codepen](https://codepen.io/FlorinPop17/full/mxgJxX) - [Github](./Projects/012%20-%20Double%20Vertical%20Slider)                |
-| 013 | Rolling Ball in 3D Canvas         | [Codepen](https://codepen.io/FlorinPop17/full/mxYbbO) - [Github](./Projects/013%20-%20Rolling%20Ball%20in%203D%20Canvas)         |
-| 014 | Sticky Navigation Bar             | [Codepen](https://codepen.io/FlorinPop17/full/xWvyaN) - [Github](./Projects/014%20-%20Sticky%20Navigation%20Bar)                 |
-| 015 | Circle Sound                      | [website](http://florin-pop.com/work/Circle%20Sound/) - [Github](./Projects/015%20-%20Circle%20Sound)                            |
-| 016 | Split Screen Slider               | [Codepen](https://codepen.io/FlorinPop17/full/KRPBmB) - [Github](./Projects/016%20-%20Split%20Screen%20Slider)                   |
-| 017 | Sliding Pizzle                    | [Codepen](https://codepen.io/FlorinPop17/full/yjLZga) - [Github](./Projects/017%20-%20Sliding%20Puzzle)                          |
-| 018 | Image Password Strength           | [Codepen](https://codepen.io/FlorinPop17/full/odbydZ) - [Github](./Projects/018%20-%20Image%20Password%20Strength)               |
-| 019 | ML Flappy Bird                    | [Codepen](https://codepen.io/FlorinPop17/full/OZXrJG) - [Github](./Projects/019%20-%20ML%20Flappy%20Bird)                        |
-| 020 | ML Basketball                     | [Codepen](https://codepen.io/FlorinPop17/full/xjPELJ) - [Github](./Projects/020%20-%20ML%20Basketball)                           |
-| 021 | DevConnector                      | [Github](./Projects/021%20-%20DevConnector)                                                                                      |
-| 022 | ActiveBox                         | [Codepen](https://codepen.io/FlorinPop17/full/Wyeyxz) - [Github](./Projects/022%20-%20ActiveBox)                                 |
-| 023 | Testimonial Box                   | [Codepen](https://codepen.io/FlorinPop17/full/QYzyWx) - [Github](./Projects/023%20-%20Testimonial%20Box)                         |
-| 024 | Pricing Plans                     | [Codepen](https://codepen.io/FlorinPop17/full/WmNoJx) - [Github](./Projects/024%20-%20Pricing%20Plans)                           |
-| 025 | Movie Search                      | [Codepen](https://codepen.io/FlorinPop17/full/rRaEYv) - [Github](./Projects/025%20-%20Movie%20Search)                            |
+| #   | Name                              | Link                                                                                                                             | Article                                                                        |
+| --- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| 001 | Art of PI                         | [Codepen](https://codepen.io/FlorinPop17/full/xWZRxa) - [Github](./Projects/001%20-%20Art%20of%20PI)                             |                                                                                |
+| 002 | Steering points in image          | [Codepen](https://codepen.io/FlorinPop17/full/VXayby) - [Github](./Projects/002%20-%20Steering%20points%20in%20image)            |                                                                                |
+| 003 | Path following                    | [Codepen](https://codepen.io/FlorinPop17/full/LdZjRb) - [Github](./Projects/003%20-%20Path%20following)                          |                                                                                |
+| 004 | Circle Packing                    | [Codepen](https://codepen.io/FlorinPop17/full/WzGQxp) - [Github](./Projects/004%20-%20Circle%20Packing)                          |                                                                                |
+| 005 | Physics - Steering behaviors      | [Codepen](https://codepen.io/FlorinPop17/full/rdyyjK) - [Github](./Projects/005%20-%20Physics%20-%20Steering%20behaviors)        |                                                                                |
+| 006 | Dotted World Map                  | [Codepen](https://codepen.io/FlorinPop17/full/QmgEBe) - [Github](./Projects/006%20-%20Dotted%20World%20Map)                      |                                                                                |
+| 007 | Jumping Letters                   | [Codepen](https://codepen.io/FlorinPop17/full/XEgpvM) - [Github](./Projects/007%20-%20Jumping%20Letters)                         |                                                                                |
+| 008 | Art of PI 2                       | [Codepen](https://codepen.io/FlorinPop17/full/Ldjqgw) - [Github](./Projects/008%20-%20Art%20of%20PI%202)                         |                                                                                |
+| 009 | IDE Theme Recommendation Using ML | [Codepen](https://codepen.io/FlorinPop17/full/MVPGGy) - [Github](./Projects/009%20-%20IDE%20Theme%20Recommendation%20Using%20ML) |                                                                                |
+| 010 | Full Background Particle System   | [Codepen](https://codepen.io/FlorinPop17/full/geBzZE) - [Github](./Projects/010%20-%20Full%20Background%20Particle%20System)     |                                                                                |
+| 011 | Blogrid                           | [Github](./Projects/011%20-%20Blogrid)                                                                                           |                                                                                |
+| 012 | Double Vertical Slider            | [Codepen](https://codepen.io/FlorinPop17/full/mxgJxX) - [Github](./Projects/012%20-%20Double%20Vertical%20Slider)                |                                                                                |
+| 013 | Rolling Ball in 3D Canvas         | [Codepen](https://codepen.io/FlorinPop17/full/mxYbbO) - [Github](./Projects/013%20-%20Rolling%20Ball%20in%203D%20Canvas)         |                                                                                |
+| 014 | Sticky Navigation Bar             | [Codepen](https://codepen.io/FlorinPop17/full/xWvyaN) - [Github](./Projects/014%20-%20Sticky%20Navigation%20Bar)                 |                                                                                |
+| 015 | Circle Sound                      | [website](http://florin-pop.com/work/Circle%20Sound/) - [Github](./Projects/015%20-%20Circle%20Sound)                            |                                                                                |
+| 016 | Split Screen Slider               | [Codepen](https://codepen.io/FlorinPop17/full/KRPBmB) - [Github](./Projects/016%20-%20Split%20Screen%20Slider)                   |                                                                                |
+| 017 | Sliding Pizzle                    | [Codepen](https://codepen.io/FlorinPop17/full/yjLZga) - [Github](./Projects/017%20-%20Sliding%20Puzzle)                          |                                                                                |
+| 018 | Image Password Strength           | [Codepen](https://codepen.io/FlorinPop17/full/odbydZ) - [Github](./Projects/018%20-%20Image%20Password%20Strength)               |                                                                                |
+| 019 | ML Flappy Bird                    | [Codepen](https://codepen.io/FlorinPop17/full/OZXrJG) - [Github](./Projects/019%20-%20ML%20Flappy%20Bird)                        |                                                                                |
+| 020 | ML Basketball                     | [Codepen](https://codepen.io/FlorinPop17/full/xjPELJ) - [Github](./Projects/020%20-%20ML%20Basketball)                           |                                                                                |
+| 021 | DevConnector                      | [Github](./Projects/021%20-%20DevConnector)                                                                                      |                                                                                |
+| 022 | ActiveBox                         | [Codepen](https://codepen.io/FlorinPop17/full/Wyeyxz) - [Github](./Projects/022%20-%20ActiveBox)                                 |                                                                                |
+| 023 | Testimonial Box                   | [Codepen](https://codepen.io/FlorinPop17/full/QYzyWx) - [Github](./Projects/023%20-%20Testimonial%20Box)                         |                                                                                |
+| 024 | Pricing Plans                     | [Codepen](https://codepen.io/FlorinPop17/full/WmNoJx) - [Github](./Projects/024%20-%20Pricing%20Plans)                           |                                                                                |
+| 025 | Movie Search                      | [Codepen](https://codepen.io/FlorinPop17/full/rRaEYv) - [Github](./Projects/025%20-%20Movie%20Search)                            | [Blog](https://www.florin-pop.com/blog/2019/02/react-movie-search-app/)        |
+| 026 | Double Slider - Sign in/up Form   | [Codepen](https://codepen.io/FlorinPop17/full/vPKWjd) - [Github](./Projects/025%20-%20Double%20Slider%20Sign%20in-up%20Form)     | [Blog](https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/) |
 
 ## To-do
 
