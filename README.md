@@ -32,7 +32,7 @@ A personal journal which holds a number of my projects, plans and resources for 
 | 024 | Pricing Plans                     | [Codepen](https://codepen.io/FlorinPop17/full/WmNoJx) - [Github](./Projects/024%20-%20Pricing%20Plans)                           |                                                                                |
 | 025 | Movie Search                      | [Codepen](https://codepen.io/FlorinPop17/full/rRaEYv) - [Github](./Projects/025%20-%20Movie%20Search)                            | [Blog](https://www.florin-pop.com/blog/2019/02/react-movie-search-app/)        |
 | 026 | Double Slider - Sign in/up Form   | [Codepen](https://codepen.io/FlorinPop17/full/vPKWjd) - [Github](./Projects/026%20-%20Double%20Slider%20Sign%20in-up%20Form)     | [Blog](https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/) |
-| 027 | Full Page Slider                  | [Codepen](https://codepen.io/FlorinPop17/full/zbzbga) - [Github](./Projects/026%20-%20Full%20Page%20Slider)                      | [Blog](https://www.florin-pop.com/blog/2019/03/full-page-slider/)              |
+| 027 | Full Page Slider                  | [Codepen](https://codepen.io/FlorinPop17/full/zbzbga) - [Github](./Projects/027%20-%20Full%20Page%20Slider)                      | [Blog](https://www.florin-pop.com/blog/2019/03/full-page-slider/)              |
 
 ## To-do
 
